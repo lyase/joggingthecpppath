@@ -1,0 +1,9 @@
+purpose                                                         |commands
+followed from start THIS PROJECT will demonstrate using github  |touch README
+using git base function manually                                | git init .
+a simple make file to compile a cpp project                     | git status 
+a hello world in cpp                                            | git add README
+adding boost dependency                                         | git commit -m "first commit"
+                                                                | vi README
+                                                                | git commit 
+
