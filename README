@@ -6,4 +6,6 @@ a hello world in cpp                                            | git add README
 adding boost dependency                                         | git commit -m "first commit"
                                                                 | vi README
                                                                 | git commit 
+                                                                | git  remote add origin git@github.com:lyase/joggingthecpppath.git
+                                                                | git push -u origin master
 
