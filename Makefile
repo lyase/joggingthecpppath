@@ -65,7 +65,7 @@ tests : tests.o elagage.o my_main.a
 doc :
 	doxygen Doxyfile
 
-docpdf : 
+docpdf : doc
 	cd doc/latex;  make pdf
 myprg :   my_main.a
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@
