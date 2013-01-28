@@ -1,11 +1,24 @@
 purpose                                                         |commands
-followed from start THIS PROJECT will demonstrate using github  |touch README
+ followed from start THIS PROJECT will demonstrate using git localy (git status  commit log  make a branch switch between branches merge delete branch)
+ same as previous using gitflow to manage branch management in a more consistent way
+ use github to share your project
+ all of that using cppcode as example
+LET'S start
+create a project                                                | mkdir myproject
+initialise a versioning system                                  | git init .
+edit a file                                                    | vi main.cpp
+check your sandbox vs repository                                | git status
+add the file to be tracked                                      | git add main.cpp
+Commit to repository                                            | git commit -a
+Let add a build system( cmake)
+
+2) using github                                                 | git  remote add origin git@github.com:lyase/joggingthecpppath.git
+|touch README
 using git base function manually                                | git init .
 a simple make file to compile a cpp project                     | git status 
 a hello world in cpp                                            | git add README
 adding boost dependency                                         | git commit -m "first commit"
                                                                 | vi README
                                                                 | git commit 
-                                                                | git  remote add origin git@github.com:lyase/joggingthecpppath.git
-                                                                | git push -u origin master
-
+                                                                
+                                                                | git push -u oit commit -arigin master
