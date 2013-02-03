@@ -1,6 +1,5 @@
 
 cmake_minimum_required(VERSION 2.6)
-SET(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 
 #set(CMAKE_MODULE_PATH "./cmake_modules/")
 #------------------------------------------------------------------------------
@@ -11,10 +10,12 @@ SET(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 #------------------------------------------------------------------------------
 
 PROJECT(gdcode)
-FIND_PACKAGE(dl REQUIRED)
 INCLUDE_DIRECTORIES(${dl_INCLUDE_DIR})
 SET(gdcode_src greet.c)
 ADD_EXECUTABLE(gdcode ${gdcode_src})
+SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake_modules/" )
+MESSAGE( The Search Path is now :   "${CMAKE_MODULE_PATH}\n")
+FIND_PACKAGE(dl REQUIRED)
 TARGET_LINK_LIBRARIES(gdcode     ${dl_LIBRARY} )
 INSTALL(TARGETS gdcode DESTINATION "bin")
 #------------------------------------------------------------------------------------------------------
