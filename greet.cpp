@@ -1,12 +1,12 @@
-/** \file greet.c
-   * \brief A brief file description of greet.c
+/** \file greet.cpp
+   * \brief A brief file description of greet.cpp
     * A more elaborated file description.
     * using latex tricks in this file
  The distance between \f$(x_1,y_1)\f$ and \f$(x_2,y_2)\f$ is 
   \f$\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\f$.
 * and \n
 * more documention if needed on new line
-* tghis is a hello world in c part of the \b joggingthecpppath project 
+* tghis is a hello world in c++ part of the \b joggingthecpppath project 
  .\n
 * \b compiles with \code gcc greep.c  -o prg \endcode \n
 * \b generate  documentation  with
@@ -24,7 +24,10 @@
 * =====================================================================================
 */
 #include <stdio.h>
-int main(void)
+#include <iostream>
+using namespace std;
+
+main(int argc, char *argv[])
 {
 int i;
 for(i=0;i<10;i++)
@@ -33,9 +36,9 @@ DONE=0
 while(!DONE){}
 */
 {
-printf("hello, how are you userxxx %s \n",__DATE__);
+cout<<"hello, how are you userxxx ? I am a prg compiled on :  "__DATE__ <<" \n";
 
-printf("test in file:%s at LINE:%d   binary compiled on : %s at: %s \n ",__FILE__,__LINE__,__DATE__,__TIME__);
+cout <<"DEBUGINFO  in file:"<<__FILE__ <<" at LINE:"<< __LINE__ <<"  binary compiled on : "<< __DATE__<<" at: "<< __TIME__<<endl;
 }
  /* this is a commented paragraph in C
  */
