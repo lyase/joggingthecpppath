@@ -10,12 +10,26 @@ cmake_minimum_required(VERSION 2.6)
 #------------------------------------------------------------------------------
 
 PROJECT(gdcode)
-INCLUDE_DIRECTORIES(${dl_INCLUDE_DIR})
-SET(gdcode_src greet.cpp)
-ADD_EXECUTABLE(gdcode ${gdcode_src})
+
 SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake_modules/" )
 MESSAGE( The Search Path is now :   "${CMAKE_MODULE_PATH}\n")
+INCLUDE_DIRECTORIES(${dl_INCLUDE_DIR})
 FIND_PACKAGE(dl REQUIRED)
+
+ADD_EXECUTABLE(gdcode greet.cpp)
 TARGET_LINK_LIBRARIES(gdcode     ${dl_LIBRARY} )
 INSTALL(TARGETS gdcode DESTINATION "bin")
+
+find_package(Doxygen)
+if (NOT ${DOXYGEN_EXECUTABLE} STREQUAL "DOXYGEN_EXECUTABLE_NOT_FOUND")
+    message("${DOXYGEN_EXECUTABLE}")
+    file(COPY Doxyfile DESTINATION ${CMAKE_BINARY_DIR})
+    set(COMMAND ${DOGYGEN_EXECUTABLE} Doxyfile)
+    add_custom_target(doc
+        ${DOXYGEN_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile
+        WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
+        COMMENT "Generating API documentation with Doxygen"
+        VERBATIM
+    )
+endif()
 #------------------------------------------------------------------------------------------------------

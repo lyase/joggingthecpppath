@@ -1,7 +1,7 @@
 MESSAGE(STATUS "looking for  dl")
 MESSAGE(STATUS "----------------------------------------------------------------------------------------------------")
 
-SET(dl_INCLUDE_DIR " /usr/include/")
+SET(dl_INCLUDE_DIR "/usr/include/")
 #instead of previous line you can use something like FIND_PATH(FOO_INCLUDE_DIR foo.h /usr/include/foo /usr/local/include/foo)
 # this file  is all explained in http://www.cmake.org/Wiki/CMake_HowToFindInstalledSoftware
 
