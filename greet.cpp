@@ -32,7 +32,7 @@ main(int argc, char *argv[])
 {
     unsigned long i = 0;
 
-    while (i < sizeof(unsigned long)) {
+    while (++i < sizeof(unsigned long)) {
         std::string filename;
         {
             std::stringstream s;
