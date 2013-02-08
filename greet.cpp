@@ -25,25 +25,30 @@
 */
 #include <stdio.h>
 #include <iostream>
-using namespace std;
+#include <fstream>
+#include <sstream>
 
 main(int argc, char *argv[])
 {
-    int i;
-    for(i=0;i<10;i++)
-    /* int DONE;
-    DONE=0 
-    while(!DONE){}
-    */
-    {
-    cout<<"hello, how are you userxxx ? I am a prg compiled on :  "__DATE__ <<" \n";
+    unsigned long i = 0;
 
-    cout <<"DEBUGINFO  in file:"<<__FILE__ <<" at LINE:"<< __LINE__ <<"  binary compiled on : "<< __DATE__<<" at: "<< __TIME__<<endl;
+    while (i < sizeof(unsigned long)) {
+        std::string filename;
+        {
+            std::stringstream s;
+            s << i << ".txt";
+            filename = "users/" + s.str();
+        }
+        std::cout << "Reading " << filename << " ...";
+        try {
+            std::fstream f(filename.c_str(), std::ios_base::in);
+        } catch (...) {
+            break;
+        }
+        std::string username;
+        std::cout << "hello, how are you " << username << " ? I am a prg compiled on :  "__DATE__ << std::endl;
+        std::cout << "DEBUGINFO  in file:" << __FILE__ << " at LINE:"<< __LINE__ <<"  binary compiled on : "<< __DATE__<<" at: "<< __TIME__<<std::endl;
     }
-    /* this is a commented paragraph in C
-     */
     return 0;
-    // 0 is normal exit 1 is error 
-
 }
 
