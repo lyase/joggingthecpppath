@@ -43,3 +43,5 @@ if (NOT ${DOXYGEN_EXECUTABLE} STREQUAL "DOXYGEN_EXECUTABLE_NOT_FOUND")
     )
 endif()
 #------------------------------------------------------------------------------------------------------
+enable_testing()
+add_test(ProgRuns gdcode)
