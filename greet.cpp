@@ -43,10 +43,10 @@ main(int argc, char *argv[])
         std::cout << "Reading " << filename << " ...";
         std::fstream f;
         f.open(filename.c_str(), std::ios_base::in);
-        if (f.bad())
-            break;
         std::string username;
         std::getline(f, username);
+        if (username.empty())
+            break;
         std::cout << "hello, how are you " << username << " ? I am a prg compiled on :  "__DATE__ << std::endl;
         std::cout << "DEBUGINFO  in file:" << __FILE__ << " at LINE:"<< __LINE__ <<"  binary compiled on : "<< __DATE__<<" at: "<< __TIME__<<std::endl;
     }
