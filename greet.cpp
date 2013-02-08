@@ -29,21 +29,21 @@ using namespace std;
 
 main(int argc, char *argv[])
 {
-int i;
-for(i=0;i<10;i++)
-/* int DONE;
-DONE=0 
-while(!DONE){}
-*/
-{
-cout<<"hello, how are you userxxx ? I am a prg compiled on :  "__DATE__ <<" \n";
+    int i;
+    for(i=0;i<10;i++)
+    /* int DONE;
+    DONE=0 
+    while(!DONE){}
+    */
+    {
+    cout<<"hello, how are you userxxx ? I am a prg compiled on :  "__DATE__ <<" \n";
 
-cout <<"DEBUGINFO  in file:"<<__FILE__ <<" at LINE:"<< __LINE__ <<"  binary compiled on : "<< __DATE__<<" at: "<< __TIME__<<endl;
-}
- /* this is a commented paragraph in C
- */
-return 0;
-// 0 is normal exit 1 is error 
+    cout <<"DEBUGINFO  in file:"<<__FILE__ <<" at LINE:"<< __LINE__ <<"  binary compiled on : "<< __DATE__<<" at: "<< __TIME__<<endl;
+    }
+    /* this is a commented paragraph in C
+     */
+    return 0;
+    // 0 is normal exit 1 is error 
 
 }
 
