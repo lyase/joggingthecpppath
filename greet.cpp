@@ -27,6 +27,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <string>
 
 main(int argc, char *argv[])
 {
@@ -40,12 +41,12 @@ main(int argc, char *argv[])
             filename = "users/" + s.str();
         }
         std::cout << "Reading " << filename << " ...";
-        try {
-            std::fstream f(filename.c_str(), std::ios_base::in);
-        } catch (...) {
+        std::fstream f;
+        f.open(filename.c_str(), std::ios_base::in);
+        if (f.bad())
             break;
-        }
         std::string username;
+        std::getline(f, username);
         std::cout << "hello, how are you " << username << " ? I am a prg compiled on :  "__DATE__ << std::endl;
         std::cout << "DEBUGINFO  in file:" << __FILE__ << " at LINE:"<< __LINE__ <<"  binary compiled on : "<< __DATE__<<" at: "<< __TIME__<<std::endl;
     }
