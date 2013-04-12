@@ -11,6 +11,7 @@ int main(int, char**) {
     d1->quack();
     d1->swim();
     d1->display();
+    d1->fly();
 
     std::cout << std::endl << "... Changing to Mallard ..." << std::endl << std::endl;
 
@@ -18,6 +19,7 @@ int main(int, char**) {
     d1->quack();
     d1->swim();
     d1->display();
+    d1->fly();
 
     std::cout << std::endl << "... Changing to Redhead ..." << std::endl << std::endl;
 
@@ -25,4 +27,5 @@ int main(int, char**) {
     d1->quack();
     d1->swim();
     d1->display();
+    d1->fly();
 }
