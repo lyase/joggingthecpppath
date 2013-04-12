@@ -9,32 +9,32 @@
 
 int main(int, char**) {
     std::unique_ptr<Duck::Base> d1(new Duck::Base);
-    d1->quack();
-    d1->swim();
-    d1->display();
-    d1->fly();
+
+    auto demo = [&] (Duck::Base* duck) {
+        std::cout << "Quack: ";
+        duck->quack();
+        std::cout << "Swim: ";
+        duck->swim();
+        std::cout << "Display: ";
+        duck->display();
+        std::cout << "Fly: ";
+        duck->fly();
+    };
+
+    demo(d1.get());
 
     std::cout << std::endl << "... Changing to Mallard ..." << std::endl << std::endl;
 
     d1.reset(new Duck::Mallard());
-    d1->quack();
-    d1->swim();
-    d1->display();
-    d1->fly();
+    demo(d1.get());
 
     std::cout << std::endl << "... Changing to Redhead ..." << std::endl << std::endl;
 
     d1.reset(new Duck::Redhead());
-    d1->quack();
-    d1->swim();
-    d1->display();
-    d1->fly();
+    demo(d1.get());
 
     std::cout << std::endl << "... Changing to Rubber ..." << std::endl << std::endl;
 
     d1.reset(new Duck::Rubber());
-    d1->quack();
-    d1->swim();
-    d1->display();
-    d1->fly();
+    demo(d1.get());
 }
