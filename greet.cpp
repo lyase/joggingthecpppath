@@ -28,12 +28,12 @@
 #include <fstream>
 #include <sstream>
 #include <string>
-
+#include <limits>
 main(int argc, char *argv[])
 {
     unsigned long i = 0;
 
-    while (++i < sizeof(unsigned long)) {
+    while (++i < std::numeric_limits<int>::max( )) {
         std::string filename;
         {
             std::stringstream s;
