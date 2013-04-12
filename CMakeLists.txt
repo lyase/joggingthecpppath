@@ -13,4 +13,4 @@ PROJECT(ducks)
 
 add_definitions(-std=c++11)
 
-ADD_EXECUTABLE(ducks ducks.cpp)
+ADD_EXECUTABLE(ducks main.cpp)
