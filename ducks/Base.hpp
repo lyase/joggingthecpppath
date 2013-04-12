@@ -4,11 +4,10 @@
 
 namespace Duck {
 
-struct Base {
-    virtual void quack() { std::cout << "Quack" << std::endl; }
+class Base {
+public:
     void swim() { std::cout << "Swim" << std::endl; }
     virtual void display() { std::cout << "Duck" << std::endl; }
-    virtual void fly() { std::cout << "FLYING!!!" << std::endl; }
 }; 
 
 }
