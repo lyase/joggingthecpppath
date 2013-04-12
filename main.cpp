@@ -10,7 +10,7 @@
 int main(int, char**) {
     std::unique_ptr<Duck::Base> d1(new Duck::Base);
 
-    auto demo = [&] (Duck::Base* duck) {
+    auto demo = [] (Duck::Base* duck) {
         std::cout << "Quack: ";
         duck->quack();
         std::cout << "Swim: ";
