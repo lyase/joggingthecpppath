@@ -16,10 +16,14 @@ Released: October 2004
 * =====================================================================================
 */
 
-
 #include "Mallard.hpp"
 
+#include "behaviours/Flyable.hpp"
+#include "behaviours/Quackable.hpp"
+
 namespace Duck {
+
+Mallard::Mallard() : Base(new Behaviour::Flyable(), new Behaviour::Quackable) {}
 
 void Mallard::display() { std::cout << "Mallard" << std::endl; }
 

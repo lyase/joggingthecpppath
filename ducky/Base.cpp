@@ -21,6 +21,11 @@ Released: October 2004
 
 namespace Duck {
 
+Base::Base(Behaviour::Flyable* flyable, Behaviour::Quackable* quackable)
+    : flyable(std::move(flyable)), quackable(std::move(quackable))
+{
+}
+
 void Base::swim() { std::cout << "Swim" << std::endl; }
 void Base::display() { std::cout << "Duck" << std::endl; }
 

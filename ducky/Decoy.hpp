@@ -18,6 +18,7 @@ namespace Duck {
 */
 class Decoy : public Base {
 public:
+    Decoy() : Base(nullptr, nullptr) {}
     void virtual display();
 };
 

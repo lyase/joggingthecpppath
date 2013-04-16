@@ -18,7 +18,12 @@ Released: October 2004
 #include <iostream>
 #include "Redhead.hpp"
 
+#include "behaviours/Flyable.hpp"
+#include "behaviours/Quackable.hpp"
+
 namespace Duck {
+
+Redhead::Redhead() : Base(new Behaviour::Flyable(), new Behaviour::Quackable) {}
 
 void Redhead::display() { std::cout << "Redhead" << std::endl; }
 

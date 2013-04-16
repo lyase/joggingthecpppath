@@ -1,13 +1,12 @@
 #pragma once
 
 #include "Base.hpp"
-#include "behaviours/Flyable.hpp"
-#include "behaviours/Quackable.hpp"
 
 namespace Duck {
 
-class Redhead : public Base, public Behaviour::Flyable, public Behaviour::Quackable {
+class Redhead : public Base {
 public:
+    Redhead();
     void virtual display();
 };
 

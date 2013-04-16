@@ -23,7 +23,9 @@ Released: October 2004
 * Company:
 *
 * =====================================================================================
-*/#include "ducky/Mallard.hpp"
+*/
+
+#include "ducky/Mallard.hpp"
 #include "ducky/Rubber.hpp"
 #include "ducky/Decoy.hpp"
 #include "ducky/behaviours/Flyable.hpp"
@@ -33,22 +35,16 @@ void demo(Duck::Base* duck) {
     /// Demo's the capabalities of a duck
     std::cout << "Display: ";
     duck->display();
-    auto quacks = dynamic_cast<Duck::Behaviour::Quackable*>(duck);
-    if (quacks != nullptr) {
-        std::cout << "Quack: ";
-        quacks->quack();
-    }
+    std::cout << "Quack: ";
+    duck->quack();
     std::cout << "Swim: ";
     duck->swim();
-    auto flies = dynamic_cast<Duck::Behaviour::Flyable*>(duck);
-    if (flies != nullptr) {
-        std::cout << "Fly: ";
-        flies->fly();
-    }
+    std::cout << "Fly: ";
+    duck->fly();
 }
 
 int main(int, char**) {
-    std::unique_ptr<Duck::Base> d1(new Duck::Base);
+    std::unique_ptr<Duck::Base> d1(new Duck::Base(nullptr, nullptr));
 
     demo(d1.get());
 
