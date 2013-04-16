@@ -68,4 +68,3 @@ int main(int, char**) {
     d1.reset(new Duck::Decoy());
     demo(d1.get());
 }
-

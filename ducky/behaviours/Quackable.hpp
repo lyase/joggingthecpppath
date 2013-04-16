@@ -1,11 +1,9 @@
 #pragma once
 
-#include "Base.hpp"
-
 namespace Duck {
 namespace Behaviour {
 
-class Quackable : public Base {
+class Quackable {
 public:
     void virtual quack();
 };
