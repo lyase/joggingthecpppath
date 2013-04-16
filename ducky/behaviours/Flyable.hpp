@@ -1,9 +1,12 @@
 #pragma once
 
+#include "Base.hpp"
+
 namespace Duck {
 namespace Behaviour {
 
-struct Flyable {
+class Flyable : public Base {
+public:
     void virtual fly();
 };
 
