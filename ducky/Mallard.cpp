@@ -23,7 +23,15 @@ Released: October 2004
 
 namespace Duck {
 
-Mallard::Mallard() : Base(new Behaviour::Flyable(), new Behaviour::Quackable) {}
+namespace Behaviour {
+
+class Croak : public Quackable {
+    void quack() { std::cout << "Ribbit" << std::endl; }
+};
+
+}
+
+Mallard::Mallard() : Base(new Behaviour::Flyable(), new Behaviour::Croak) {}
 
 void Mallard::display() { std::cout << "Mallard" << std::endl; }
 
