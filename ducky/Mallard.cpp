@@ -19,7 +19,6 @@ Released: October 2004
 #include "Mallard.hpp"
 
 #include "behaviours/Flyable.hpp"
-#include "behaviours/Quackable.hpp"
 
 namespace Duck {
 
@@ -31,7 +30,7 @@ class Croak : public Quackable {
 
 }
 
-Mallard::Mallard() : Base(new Behaviour::Flyable(), new Behaviour::Croak) {}
+Mallard::Mallard(Behaviour::Quackable* quack) : Base(new Behaviour::Flyable(), (quack ? quack : new Behaviour::Croak)) {}
 
 void Mallard::display() { std::cout << "Mallard" << std::endl; }
 

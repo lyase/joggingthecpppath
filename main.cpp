@@ -30,6 +30,7 @@ Released: October 2004
 #include "ducky/Decoy.hpp"
 #include "ducky/behaviours/Flyable.hpp"
 #include "ducky/behaviours/Quackable.hpp"
+#include "ducky/behaviours/Squeak.hpp"
 
 void demo(Duck::Base* duck) {
     /// Demo's the capabalities of a duck
@@ -53,6 +54,10 @@ int main(int, char**) {
     d1.reset(new Duck::Mallard());
     demo(d1.get());
 
+    std::cout << std::endl << "... Changing to CUSTOM Mallard ..." << std::endl << std::endl;
+
+    d1.reset(new Duck::Mallard(new Duck::Behaviour::Squeak));
+    demo(d1.get());
     std::cout << std::endl << "... Changing to Redhead ..." << std::endl << std::endl;
 
     d1.reset(new Duck::Redhead());
