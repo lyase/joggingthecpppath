@@ -5,7 +5,25 @@
 
 #include "ducky/Base.hpp"
 #include "ducky/Redhead.hpp"
-#include "ducky/Mallard.hpp"
+/** \file main.cpp
+*source file defining the Redhead  duck class illustrating the behavior pattern as shown in  Head First Design Patterns
+By Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra .
+a crude implementation of the duck familly with inheritance will have Decoy flying as side effect using the behavior pattern side effect are limited.
+or a solution with multiple inheritance  you can add functionalities to a class adding a new behevior interface
+Publisher: O'Reilly Media
+Released: October 2004
+
+*\n
+*\version 1.0
+*\date 12/04/13 10:06:50
+* Revision: none
+* Compiler: gcc
+*
+*\author:  Matthew and Luli: msherborne@gmail.com
+* Company:
+*
+* =====================================================================================
+*/#include "ducky/Mallard.hpp"
 #include "ducky/Rubber.hpp"
 #include "ducky/Decoy.hpp"
 #include "ducky/behaviours/Flyable.hpp"
