@@ -1,5 +1,11 @@
 #pragma once
+
 #include <iostream>
+#include <memory>
+
+#include "behaviours/Flyable.hpp"
+#include "behaviours/Quackable.hpp"
+
 namespace Duck {
 /*! A Duck class
 * \details This  is  a base class( an interface) for ducks .
@@ -16,9 +22,14 @@ namespace Duck {
 *this class is a minimal duck
 */
 class Base {
+protected:
+    std::unique_ptr<Behaviour::Flyable> flyable;
+    std::unique_ptr<Behaviour::Quackable> quackable;
 public:
     void swim();
     virtual void display();
+    void fly();
+    void quack();
 }; 
 
 }
