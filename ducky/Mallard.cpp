@@ -24,13 +24,13 @@ namespace Duck {
 
 namespace Behaviour {
 
-class Croak : public Quackable {
-    void quack() { std::cout << "Ribbit" << std::endl; }
+class MallardQuack : public Quackable {
+    void quack() { std::cout << "I quack like a Mallard" << std::endl; }
 };
 
 }
 
-Mallard::Mallard(Behaviour::Quackable* quack) : Base(new Behaviour::Flyable(), (quack ? quack : new Behaviour::Croak)) {}
+Mallard::Mallard(Behaviour::Quackable* quack) : Base(new Behaviour::Flyable(), (quack ? quack : new Behaviour::MallardQuack)) {}
 
 void Mallard::display() { std::cout << "Mallard" << std::endl; }
 
