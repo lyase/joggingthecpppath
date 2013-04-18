@@ -39,4 +39,8 @@ void Base::quack() {
         quackable->quack();
 }
 
+void Base::setBehavior(Behaviour::Quackable* newQuack) {
+    quackable.reset(newQuack);
+}
+
 }
