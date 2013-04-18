@@ -46,7 +46,7 @@ void demo(Duck::Base* duck) {
 
 int main(int, char**) {
     std::unique_ptr<Duck::Base> d1(new Duck::Base(nullptr, nullptr));
-    std::unique_ptr<Duck::Behaviour> behavor(new Duck::Behaviour::Squeak());
+    std::unique_ptr<Duck::Behaviour::Quackable> behavor ( new Duck::Behaviour::Squeak());
     demo(d1.get());
 
     std::cout << std::endl << "... Changing to Mallard ..." << std::endl << std::endl;
@@ -55,12 +55,12 @@ int main(int, char**) {
     demo(d1.get());
     std::cout << std::endl << "... Changing behavior of Mallard ..." << std::endl << std::endl;
     behavor.reset(new Duck::Behaviour::Squeak());
-    d1.get()->setBehavor(behavor.get());
+    d1.get()->setBehavior(behavor.get());
     demo(d1.get());
 
     std::cout << std::endl << "... Changing to CUSTOM Mallard ..." << std::endl << std::endl;
 
-    d1.reset(new Duck::Mallard(new Duck::Behaviour::Squeak));
+    d1.reset(new Duck::Mallard(new Duck::Behaviour::Squeak()));
     demo(d1.get());
     std::cout << std::endl << "... Changing to Redhead ..." << std::endl << std::endl;
 
