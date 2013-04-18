@@ -30,7 +30,7 @@ class MallardQuack : public Quackable {
 
 }
 
-Mallard::Mallard(Behaviour::Quackable* quack) : Base(new Behaviour::Flyable(), (quack ? quack : new Behaviour::MallardQuack)) {}
+Mallard::Mallard(Behaviour::Quackable* quack) : Base(new Behaviour::Flyable(), quack ? quack : new Behaviour::MallardQuack) {}
 
 void Mallard::display() { std::cout << "Mallard" << std::endl; }
 
