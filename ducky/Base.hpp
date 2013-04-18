@@ -29,6 +29,7 @@ public:
     Base(Behaviour::Flyable* flyable, Behaviour::Quackable* quackable);
     void swim();
     virtual void display();
+     void setBehavior(Behaviour::Quackable* );
     void fly();
     void quack();
 }; 

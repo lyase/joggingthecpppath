@@ -29,6 +29,10 @@ class MallardQuack : public Quackable {
 };
 
 }
+void Mallard::setBehavior(Behaviour::Quackable* quack)
+{
+    quackable.reset(quack);
+}
 
 Mallard::Mallard(Behaviour::Quackable* quack) : Base(new Behaviour::Flyable(), quack ? quack : new Behaviour::MallardQuack) {}
 

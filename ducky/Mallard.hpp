@@ -9,6 +9,7 @@ class Mallard : public Base {
 public:
     Mallard(Behaviour::Quackable* quack=nullptr);
     void virtual display();
+    void virtual setBehavior(Behaviour::Quackable* );
 };
 
 }
