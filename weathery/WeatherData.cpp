@@ -7,11 +7,20 @@ double WeatherData::getHumidity() { return 2; }
 double WeatherData::getPressure() { return 3; }
 
 void WeatherData::measuremntsChanged() {
-    double temp(getTemperature());
-    double humidity(getHumidity());
-    double pressure(getPressure());
+    notifyObservers();
+}
 
+void WeatherData::registerObserver(pObserver o) {
+    observers.insert(o);
+}
 
+void WeatherData::removeObserver(pObserver o) {
+    observers.erase(o);
+}
+
+void WeatherData::notifyObservers() {
+    for (auto o : observers)
+        o->update(temperature, humidity, pressure);
 }
 
 }
