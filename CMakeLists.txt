@@ -6,7 +6,7 @@ add_definitions(-std=c++11 -Wall -Wextra -pedantic)
 
 add_subdirectory(ducky)
 
-ADD_EXECUTABLE(ducks main.cpp)
+ADD_EXECUTABLE(ducks ducks.cpp)
 target_link_libraries(ducks ducky)
 find_package(Doxygen)
 if (NOT ${DOXYGEN_EXECUTABLE} STREQUAL "DOXYGEN_EXECUTABLE_NOT_FOUND")
