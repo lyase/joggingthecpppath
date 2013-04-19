@@ -5,9 +5,13 @@ PROJECT(ducks)
 add_definitions(-std=c++11 -Wall -Wextra -pedantic)
 
 add_subdirectory(ducky)
-
 ADD_EXECUTABLE(ducks ducks.cpp)
 target_link_libraries(ducks ducky)
+
+add_subdirectory(weathery)
+ADD_EXECUTABLE(weather weather.cpp)
+target_link_libraries(weather weathery)
+
 find_package(Doxygen)
 if (NOT ${DOXYGEN_EXECUTABLE} STREQUAL "DOXYGEN_EXECUTABLE_NOT_FOUND")
     message("${DOXYGEN_EXECUTABLE}")
