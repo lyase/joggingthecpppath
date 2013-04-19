@@ -1,3 +1,3 @@
 PROJECT(weathery)
 
-add_library(weathery STATIC WeatherData.cpp Observer.cpp Subject.cpp)
+add_library(weathery STATIC WeatherData.cpp Observer.cpp Subject.cpp CurrentConditionsDisplay.cpp)

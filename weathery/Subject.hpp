@@ -3,10 +3,11 @@
 
 namespace weathery {
 
-struct Subject {
+class Subject {
+public:
     virtual void registerObserver(pObserver) = 0;
     virtual void removeObserver(pObserver) = 0;
-    virtual void notifyObservers() = 0;
+    virtual void notifyObservers() const = 0;
     virtual ~Subject();
 };
 

@@ -3,11 +3,17 @@
 
 namespace weathery {
 
-struct Observer {
+class Subject;
+
+class Observer {
+private:
+    Subject& subject;
+public:
     virtual void update(double temperature, double humidity, double pressure) = 0;
+    Observer(Subject&);
     virtual ~Observer();
 };
 
-typedef std::shared_ptr<Observer> pObserver;
+typedef Observer* pObserver;
 
 }

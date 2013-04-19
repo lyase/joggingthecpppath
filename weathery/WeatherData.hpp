@@ -17,12 +17,13 @@ public:
     double getHumidity();
     double getPressure();
 
+    void setMeasurements(double temperature, double humidity, double pressure);
     void measuremntsChanged();
 
     // Subject Implementation
     void registerObserver(pObserver);
     void removeObserver(pObserver);
-    void notifyObservers();
+    void notifyObservers() const;
 };
 
 }
