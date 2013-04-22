@@ -14,6 +14,7 @@ Released: October 2004
 * Company:
 *
 * =====================================================================================
+** \copyright GNU Public License. \n
 */
 #include <iostream>
 
@@ -39,7 +40,7 @@ void Base::quack() {
         quackable->quack();
 }
 
-void Base::setBehavior(Behaviour::Quackable* newQuack) {
+void Base::setQuackBehavior(Behaviour::Quackable* newQuack) {
     quackable.reset(newQuack);
 }
 

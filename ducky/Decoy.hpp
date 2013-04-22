@@ -4,17 +4,15 @@
 
 namespace Duck {
 /*! A Decoy class
-* \details This class is used to demonstrate side effects if intuitively implemented as a child of duck class it will start flying once duck have a fly method implemented.
-* \author John Doe
+* \details This class should never fly.\n no matter how you change other duck or even the duck base class
+* as shown in this project these object will never fly keeping it's intended behaviour unless you knowingly set a fly behavior at run time!!
+*\author:  Matthew and Luli: msherborne@gmail.com
 * \version 4.1a
-* \date 1990-2011
+* \date 1990-2013
 * \pre First initialize the system.
-* \bug should be bug free was check with valgrind in prg testUser_Class_dbo.cpp
-* \warning Improper use can crash your application.
-*
-*/
-/*! \brief this class defines a User object of the application
-*this class now has Posts as children
+* \bug  bug free implementation
+* \warning Improper use can crash your application use unique_ptr to reduce memory leaks.
+* \copyright GNU Public License. \n
 */
 class Decoy : public Base {
 public:

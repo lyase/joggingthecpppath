@@ -6,10 +6,14 @@
 #include "ducky/Base.hpp"
 #include "ducky/Redhead.hpp"
 /** \file main.cpp
-*source file defining the Redhead  duck class illustrating the behavior pattern as shown in  Head First Design Patterns
+*source file defining a main application illustrating the strategy pattern as shown in  Head First Design Patterns
 By Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra .
-a crude implementation of the duck familly with inheritance will have Decoy flying as side effect using the behavior pattern side effect are limited.
-or a solution with multiple inheritance  you can add functionalities to a class adding a new behevior interface
+a crude implementation of the duck familly with inheritance will have Decoy flying as side effect.
+Using the strategy  pattern  as illustrated in our library ducky side effect are limited.
+this example shown how a demo function coded to an interface  can then be used for any object of the duck familly Mallard, Redhead, Rubber Decoy...
+it also shows how to change dynamically properties of the Mallard duck with no memory leaks!!!
+all the ducks an their related behavior are implemented in the ducky lib.
+
 Publisher: O'Reilly Media
 Released: October 2004
 
@@ -21,7 +25,7 @@ Released: October 2004
 *
 *\author:  Matthew and Luli: msherborne@gmail.com
 * Company:
-*
+* \copyright GNU Public License. \n
 * =====================================================================================
 */
 
@@ -31,6 +35,12 @@ Released: October 2004
 #include "ducky/behaviours/Flyable.hpp"
 #include "ducky/behaviours/Quackable.hpp"
 #include "ducky/behaviours/Squeak.hpp"
+/*! \fn void demo(Duck::Base* duck)
+* \brief A demo function for any object implementing the duck interface
+*  will call display quack swim and fly on the incomming object
+*
+* \param duck  .
+*/
 
 void demo(Duck::Base* duck) {
     /// Demo's the capabalities of a duck
@@ -46,16 +56,16 @@ void demo(Duck::Base* duck) {
 
 int main(int, char**) {
     std::unique_ptr<Duck::Base> d1(new Duck::Base(nullptr, nullptr));
-    std::unique_ptr<Duck::Behaviour::Quackable> behavor ( new Duck::Behaviour::Squeak());
+    std::unique_ptr<Duck::Behaviour::Quackable>mbehaviour ( new Duck::Behaviour::Squeak());
     demo(d1.get());
 
     std::cout << std::endl << "... Changing to Mallard ..." << std::endl << std::endl;
 
     d1.reset(new Duck::Mallard());
     demo(d1.get());
-    std::cout << std::endl << "... Changing behavior of Mallard ..." << std::endl << std::endl;
-    behavor.reset(new Duck::Behaviour::Squeak());
-    d1.get()->setBehavior(behavor.get());
+    std::cout << std::endl << "... Changing at runTime behaviour of Mallard ..." << std::endl << std::endl;
+    mbehaviour.reset(new Duck::Behaviour::Squeak());
+    d1.get()->setQuackBehavior(mbehaviour.get());
     demo(d1.get());
 
     std::cout << std::endl << "... Changing to CUSTOM Mallard ..." << std::endl << std::endl;
