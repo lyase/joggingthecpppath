@@ -10,24 +10,15 @@ void WeatherData::setMeasurements(double aTemperature, double aHumidity, double 
     temperature = aTemperature;
     humidity = aHumidity;
     pressure = aPressure;
-    notifyObservers();
+
 }
 
-void WeatherData::measuremntsChanged() {
-    notifyObservers();
+void WeatherData::WorldChangedGoGetNewValue() {
+    temperature = getTemperature();
+    humidity = getHumidity();
+    pressure = getPressure();
+
 }
 
-void WeatherData::registerObserver(pObserver o) {
-    observers.insert(o);
-}
-
-void WeatherData::removeObserver(pObserver o) {
-    observers.erase(o);
-}
-
-void WeatherData::notifyObservers() const {
-    for (auto o : observers)
-        o->update(temperature, humidity, pressure);
-}
 
 }

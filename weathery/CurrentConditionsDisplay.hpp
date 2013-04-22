@@ -1,16 +1,15 @@
 #pragma once
 #include "Observer.hpp"
-
+#include "WeatherData.hpp"
 namespace weathery {
 
-class Subject;
-
-class CurrentConditionsDisplay  : public Observer {
+class LCDDisplay  {
 public:
-    CurrentConditionsDisplay(Subject& subject);
+    LCDDisplay();
 
     // Observer interface
     void update(double temperature, double humidity, double pressure);
+    void showOnLCD(weathery::WeatherData data);
 };
 
 }

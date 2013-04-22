@@ -6,14 +6,14 @@
 
 namespace weathery {
 
-CurrentConditionsDisplay::CurrentConditionsDisplay(Subject& subject) : Observer(subject) {}
+LCDDisplay::LCDDisplay()  {}
 
-void CurrentConditionsDisplay::update(double temperature, double humidity, double pressure) {
+void LCDDisplay::showOnLCD(weathery::WeatherData data) {
     std::cout.precision(2);
     std::cout.width(5);
-    std::cout << "Temperature: " << temperature << std::endl
-              << "Humidity: " << humidity << std::endl
-              << "pressure: " << pressure << std::endl;
+    std::cout << "Temperature: " << data.getTemperature() << std::endl
+              << "Humidity: " << data.getHumidity() << std::endl
+              << "pressure: " << data.getPressure() << std::endl;
 }
 
 }
