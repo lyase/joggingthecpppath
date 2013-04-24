@@ -13,7 +13,7 @@ private:
 public:
     template <typename T>
     void addObserver(T& observer) {
-        observers.push_back([&](Params... params) { observer(params...); });
+        observers.push_back(std::ref(observer));
     }
     void notifyAllObservers(Params... params) {
         for(auto o : observers)
