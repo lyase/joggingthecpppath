@@ -21,27 +21,17 @@ Released: October 2004
 #include "weathery/CurrentConditionsDisplay.hpp"
 #include "weathery/WeatherData.hpp"
 #include "weathery/StatsKeeper.hpp"
-
-/// Takes a callable object, and returns a new std::function that will call that object when that func is called
-template <typename T>
-weathery::Observer asFunc(T& ob) {
-    return [&](double temperature, double humidity, double pressure) {
-        ob(temperature, humidity, pressure);
-    };
-}
+#include "weathery/ObserverPattern.hpp"
 
 int main(int, char**) {
+    weathery::ObserverPattern<weathery::WeatherData, double, double, double> observers;
     weathery::LCDDisplay tv;
     weathery::StatsKeeper stats;
-    // A list of observers, each will be called when the weather station emits data
-    std::vector<weathery::Observer> observers {
-        asFunc(tv),
-        asFunc(stats),
-    };
+    observers.addObserver(tv);
+    observers.addObserver(stats);
     // A quick lambda to call every observer in the list
     auto notifyAll = [&](double temperature, double humidity, double pressure) {
-        for (auto observer : observers)
-            observer(temperature, humidity, pressure);
+        observers.notifyAllObservers(temperature, humidity, pressure);
     };
     weathery::WeatherData data(notifyAll);
     data.setMeasurements(1, 2.2, 3.3);
