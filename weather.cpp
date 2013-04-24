@@ -24,7 +24,7 @@ Released: October 2004
 #include "weathery/ObserverPattern.hpp"
 
 int main(int, char**) {
-    weathery::ObserverPattern<weathery::WeatherData, double, double, double> observers;
+    weathery::ObserverPattern<double, double, double> observers;
     weathery::LCDDisplay tv;
     weathery::StatsKeeper stats;
     observers.addObserver(tv);
