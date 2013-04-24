@@ -1,8 +1,9 @@
 #include "WeatherData.hpp"
+#include "CurrentConditionsDisplay.hpp"
 
 namespace weathery {
 
-WeatherData::WeatherData(LCDDisplay& display) : display(display) {}
+WeatherData::WeatherData(LCDDisplay* display) : display(display) {}
 
 double WeatherData::getTemperature() const { return temperature; }
 double WeatherData::getHumidity() const { return humidity; }
@@ -12,8 +13,7 @@ void WeatherData::setMeasurements(double aTemperature, double aHumidity, double 
     temperature = aTemperature;
     humidity = aHumidity;
     pressure = aPressure;
-    display.showOnLCD(this);
-
+    display->showOnLCD(this);
 }
 
 }

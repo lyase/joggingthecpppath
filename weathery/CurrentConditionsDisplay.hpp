@@ -10,7 +10,7 @@ public:
     LCDDisplay();
 
     // Observer interface
-    void showOnLCD(weathery::WeatherData* data);
+    void showOnLCD(const weathery::WeatherData* data);
 };
 
 }

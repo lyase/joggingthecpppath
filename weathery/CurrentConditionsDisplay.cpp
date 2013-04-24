@@ -8,7 +8,7 @@ namespace weathery {
 
 LCDDisplay::LCDDisplay()  {}
 
-void LCDDisplay::showOnLCD(weathery::WeatherData* data) {
+void LCDDisplay::showOnLCD(const weathery::WeatherData* data) {
     std::cout.precision(2);
     std::cout.width(5);
     std::cout << "Temperature: " << data->getTemperature() << std::endl
