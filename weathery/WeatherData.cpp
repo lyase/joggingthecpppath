@@ -14,9 +14,9 @@ void WeatherData::setMeasurements(double aTemperature, double aHumidity, double 
 }
 
 void WeatherData::WorldChangedGoGetNewValue() {
-    temperature = getTemperature();
-    humidity = getHumidity();
-    pressure = getPressure();
+ //   temperature = getTemperature();
+  //  humidity = getHumidity();
+   // pressure = getPressure();
 
 }
 
