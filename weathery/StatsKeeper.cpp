@@ -4,7 +4,7 @@
 
 namespace weathery {
 
-void StatsKeeper::update(double temperature, double humidity, double pressure) {
+void StatsKeeper::operator()(double temperature, double humidity, double pressure) {
     history.push_back({temperature, humidity, pressure});
 }
 

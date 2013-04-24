@@ -25,11 +25,11 @@ int main(int, char**) {
     weathery::LCDDisplay tv;
     weathery::StatsKeeper stats;
     auto observer = [&](double temperature, double humidity, double pressure) {
-        tv.showOnLCD(temperature, humidity, pressure);
-        stats.update(temperature, humidity, pressure);
-        stats.display();
+        tv(temperature, humidity, pressure);
+        stats(temperature, humidity, pressure);
     };
     weathery::WeatherData data(observer);
     data.setMeasurements(1, 2.2, 3.3);
     data.setMeasurements(10, 20.2, 33.3333333333333333333);
+    stats.display();
 }

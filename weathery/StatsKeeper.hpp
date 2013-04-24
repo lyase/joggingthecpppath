@@ -13,7 +13,7 @@ private:
     };
     std::vector<Entry> history;
 public:
-    void update(double temperature, double humidity, double pressure);
+    void operator()(double temperature, double humidity, double pressure);
     void display() const;
 };
 

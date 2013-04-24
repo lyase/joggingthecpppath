@@ -7,7 +7,7 @@ public:
     LCDDisplay();
 
     // Observer interface
-    void showOnLCD(double temperature, double humidity, double pressure);
+    void operator()(double temperature, double humidity, double pressure);
 };
 
 }
