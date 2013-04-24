@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
 
-PROJECT(ducks)
+PROJECT(design_patterns)
 
 add_definitions(-std=c++11 -Wall -Wextra -pedantic)
 
@@ -12,7 +12,12 @@ add_subdirectory(weathery)
 ADD_EXECUTABLE(weather weather.cpp)
 target_link_libraries(weather weathery)
 
+add_subdirectory(coffee)
+ADD_EXECUTABLE(cafe cafe.cpp)
+target_link_libraries(cafe coffee)
+
 find_package(Doxygen)
+
 if (NOT ${DOXYGEN_EXECUTABLE} STREQUAL "DOXYGEN_EXECUTABLE_NOT_FOUND")
     message("${DOXYGEN_EXECUTABLE}")
     file(COPY Doxyfile DESTINATION ${CMAKE_BINARY_DIR})

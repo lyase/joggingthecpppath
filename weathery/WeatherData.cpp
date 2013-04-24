@@ -2,9 +2,9 @@
 
 namespace weathery {
 
-double WeatherData::getTemperature() { return 1; }
-double WeatherData::getHumidity() { return 2; }
-double WeatherData::getPressure() { return 3; }
+double WeatherData::getTemperature() const { return temperature; }
+double WeatherData::getHumidity() const { return humidity; }
+double WeatherData::getPressure() const { return pressure; }
 
 void WeatherData::setMeasurements(double aTemperature, double aHumidity, double aPressure) {
     temperature = aTemperature;
@@ -12,13 +12,5 @@ void WeatherData::setMeasurements(double aTemperature, double aHumidity, double 
     pressure = aPressure;
 
 }
-
-void WeatherData::WorldChangedGoGetNewValue() {
- //   temperature = getTemperature();
-  //  humidity = getHumidity();
-   // pressure = getPressure();
-
-}
-
 
 }
