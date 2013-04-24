@@ -1,17 +1,19 @@
 #pragma once
 
+#include <functional>
+
 namespace weathery {
 
-class LCDDisplay;
+typedef std::function<void(double, double, double)> Observer;
 
 class WeatherData  {
 private:
     double temperature;
     double humidity;
     double pressure;
-    LCDDisplay* display;
+    Observer observer;
 public:
-    WeatherData(LCDDisplay* display);
+    WeatherData(Observer observer);
     double getTemperature() const;
     double getHumidity() const;
     double getPressure() const;

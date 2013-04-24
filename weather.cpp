@@ -22,7 +22,10 @@ Released: October 2004
 
 int main(int, char**) {
     weathery::LCDDisplay tv;
-    weathery::WeatherData data(&tv);
+    auto observer = [&](double temperature, double humidity, double pressure) {
+        tv.showOnLCD(temperature, humidity, pressure);
+    };
+    weathery::WeatherData data(observer);
     data.setMeasurements(1, 2.2, 3.3);
     data.setMeasurements(10, 20.2, 33.3333333333333333333);
 }
