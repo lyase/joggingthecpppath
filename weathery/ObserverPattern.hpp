@@ -1,5 +1,8 @@
 #pragma once
 
+#include <functional>
+#include <vector>
+
 namespace weathery {
 
 // The '...' is used wherever the variadic template parameters or types need to be expanded
