@@ -19,11 +19,15 @@ Released: October 2004
 
 #include "weathery/CurrentConditionsDisplay.hpp"
 #include "weathery/WeatherData.hpp"
+#include "weathery/StatsKeeper.hpp"
 
 int main(int, char**) {
     weathery::LCDDisplay tv;
+    weathery::StatsKeeper stats;
     auto observer = [&](double temperature, double humidity, double pressure) {
         tv.showOnLCD(temperature, humidity, pressure);
+        stats.update(temperature, humidity, pressure);
+        stats.display();
     };
     weathery::WeatherData data(observer);
     data.setMeasurements(1, 2.2, 3.3);
