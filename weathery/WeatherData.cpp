@@ -13,7 +13,7 @@ void WeatherData::setMeasurements(double aTemperature, double aHumidity, double 
     temperature = aTemperature;
     humidity = aHumidity;
     pressure = aPressure;
-    display->showOnLCD(this);
+    display->showOnLCD(temperature, humidity, pressure);
 }
 
 }
