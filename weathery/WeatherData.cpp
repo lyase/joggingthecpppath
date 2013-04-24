@@ -2,6 +2,8 @@
 
 namespace weathery {
 
+WeatherData::WeatherData(LCDDisplay& display) : display(display) {}
+
 double WeatherData::getTemperature() const { return temperature; }
 double WeatherData::getHumidity() const { return humidity; }
 double WeatherData::getPressure() const { return pressure; }
@@ -10,6 +12,8 @@ void WeatherData::setMeasurements(double aTemperature, double aHumidity, double 
     temperature = aTemperature;
     humidity = aHumidity;
     pressure = aPressure;
+    display.update(temperature, humidity, pressure);
+    display.showOnLCD(*this);
 
 }
 

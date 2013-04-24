@@ -23,7 +23,7 @@ Released: October 2004
 int main(int, char**) {
     weathery::WeatherData data;
     weathery::LCDDisplay tv;
-data.setMeasurements(1, 2.2, 3.3);
+    data.setMeasurements(1, 2.2, 3.3);
     tv.showOnLCD(data);
     data.setMeasurements(10, 20.2, 33.3333333333333333333);
     tv.showOnLCD(data);

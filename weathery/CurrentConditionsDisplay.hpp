@@ -1,6 +1,7 @@
 #pragma once
 #include "Observer.hpp"
 #include "WeatherData.hpp"
+
 namespace weathery {
 
 class LCDDisplay  {
