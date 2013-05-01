@@ -39,4 +39,8 @@ if (NOT ${DOXYGEN_EXECUTABLE} STREQUAL "DOXYGEN_EXECUTABLE_NOT_FOUND")
 endif()
 #------------------------------------------------------------------------------------------------------
 enable_testing()
-add_test(ProgRuns ducks)
+add_subdirectory(tests)
+
+add_test(Runningduckprg ducks)
+add_test(Runningcafeprg cafe)
+add_test(Runningweatherprg weather)
