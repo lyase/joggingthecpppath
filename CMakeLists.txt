@@ -15,7 +15,9 @@ target_link_libraries(weather weathery)
 add_subdirectory(coffee)
 ADD_EXECUTABLE(cafe cafe.cpp)
 target_link_libraries(cafe coffee)
-
+add_subdirectory(factory)
+ADD_EXECUTABLE(factoryexe Factory.cpp)
+target_link_libraries(factoryexe factory)
 find_package(Doxygen)
 
 if (NOT ${DOXYGEN_EXECUTABLE} STREQUAL "DOXYGEN_EXECUTABLE_NOT_FOUND")
