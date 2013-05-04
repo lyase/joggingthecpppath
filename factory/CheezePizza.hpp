@@ -8,7 +8,7 @@ class CheezePizza : public factory::Pizza {
 public:
     CheezePizza() {};
 const char* description() const { return "CheezePizza here"; }
-    double cost() const;
+    double cost() const { return 4; }
 };
 
 }
