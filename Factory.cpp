@@ -10,4 +10,8 @@ int main(int, char**) {
     factory::Pizza* aPizza;
     aPizza= new factory::CheezePizza ;
     std::cout <<  "i am testing a CheezePizza as a pizza " << aPizza->description() << std::endl;
+    std::cout <<  "i can bake cut box  a CheezePizza as a pizza " << aPizza->bake() << std::endl;
+    std::cout <<  "i can bake cut box  a CheezePizza as a pizza " << aPizza->cut() << std::endl;
+    std::cout <<  "i can bake cut box  a CheezePizza as a pizza " << aPizza->box() << std::endl;
+
 }
