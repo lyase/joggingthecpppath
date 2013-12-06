@@ -1,49 +1,55 @@
-#include <MenuItem.hpp>
+#pragma once
+
+#include "MenuItem.hpp"
+#include "PancakeHouseMenu.hpp"
+#include "DinerMenu.hpp"
+
+#include <iostream>
+#include <functional>
+
+/// Easy printing of a menu item
+std::ostream& operator <<(std::ostream& s, const MenuItem& item) {
+    s << item.name << " "
+      << item.price << " "
+      << item.description;
+    return s;
+}
+
+/// Easy printing of a container of menu items
+template <typename Container>
+std::ostream& operator <<(std::ostream& s, const Container& menu) {
+    for(const MenuItem& item : menu)
+        s << item << std::endl;
+    return s;
+}
 
 struct Waitress {
-    std::list<MenuItem> breakfastItems;
-    std::vector<MenuItem> lunchItems; 
+    PancakeHouseMenu breakfastItems;
+    DinerMenu lunchItems;
 
-    void printMenu() {
-        PancakeHouseMenu pcakeMenu;
-        breakfastItems = pcakeMenu.menuItems;
-
-        DinerMenu dinerMenu;
-        lunchItems = dinerMenu.menuItems;
+    template <typename Menu>
+    void printMenu(Menu& menu, std::function<bool(const MenuItem&)> predicate = {}) {
+        if (predicate) {
+            for (auto& item : menu)
+                if (pred(item))
+                    std::cout << item;
+        } else {
+            std::cout << menu;
+        }
+    }
+    void printBoth() {
+        printBreakfastMenu();
+        printLunchMenu();
     }
     void printBreakfastMenu() {
-        for (size_t i=0; i<breakfastItems.size(); ++i) {
-            MenuItem menuItem = breakfastItems.at(i);
-            std::cout << menuItem.name << " "
-                      << menuItem.price << " "
-                      << menuItem.description;
-        }
+        printMenu(breakfastItems);
     }
     void printLunchMenu() {
-        for (size_t i=0; i<lunchItems.size(); ++i) {
-            MenuItem menuItem = lunchItems.at(i);
-            std::cout << menuItem.name << " "
-                      << menuItem.price << " "
-                      << menuItem.description;
-        }
+        printMenu(lunchItems);
     }
     void printVegitarianMenu() {
-        for (size_t i=0; i<breakfastItems.size(); ++i) {
-            MenuItem menuItem = breakfastItems.at(i);
-            if (menuItem.vegetarian)
-                std::cout << menuItem.name << " "
-                          << menuItem.price << " "
-                          << menuItem.description;
-        }
-        for (size_t i=0; i<lunchItems.size(); ++i) {
-            MenuItem menuItem = lunchItems.at(i);
-            if (menuItem.vegetarian)
-                std::cout << menuItem.name << " "
-                          << menuItem.price << " "
-                          << menuItem.description;
-        }
-    }
-    bool isItemVegitarian(const MenuItem& item) {
-        return item.vegetarian;
+        auto isVege = [](const MenuItem& item) { return item.vegitarian; };
+        printMenu(breakfastItems, isVege);
+        printMenu(lunchItems, isVege);
     }
 };

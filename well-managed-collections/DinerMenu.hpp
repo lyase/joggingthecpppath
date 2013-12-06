@@ -1,9 +1,11 @@
+#pragma once
+
 #include "MenuItem.hpp"
 
 #include <vector>
 
 struct DinerMenu {
-    std::vector menuItems = {
+    std::vector<MenuItem> menuItems = {
         {"Vegitarian BLT",
          "(Fakin') Bacon with lettuce",
          true,
@@ -17,7 +19,4 @@ struct DinerMenu {
          false,
          4.99}
     };
-
-
-
 };

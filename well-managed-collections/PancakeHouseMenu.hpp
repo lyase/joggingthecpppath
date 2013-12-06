@@ -1,9 +1,11 @@
+#pragma once
+
 #include "MenuItem.hpp"
 
 #include <list>
 
 struct PancakeHouseMenu {
-    std::list menuItems = {
+    std::list<MenuItem> menuItems = {
         {"K&B's Pancake Breakfast",
          "Pancakes with scrabled eggs, and toast",
          true,
