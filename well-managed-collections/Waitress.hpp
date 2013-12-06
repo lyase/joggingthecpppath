@@ -15,10 +15,16 @@ std::ostream& operator <<(std::ostream& s, const MenuItem& item) {
     return s;
 }
 
-/// Easy printing of a container of menu items
-template <typename Container>
-std::ostream& operator <<(std::ostream& s, const Container& menu) {
-    for(const MenuItem& item : menu)
+/// Easy printing of a DinerMenu of menu items
+std::ostream& operator <<(std::ostream& s, const DinerMenu& menu) {
+    for(const MenuItem& item : menu.menuItems)
+        s << item << std::endl;
+    return s;
+}
+
+/// Easy printing of a PancakeHouseMenu of menu items
+std::ostream& operator <<(std::ostream& s, const PancakeHouseMenu& menu) {
+    for(const MenuItem& item : menu.menuItems)
         s << item << std::endl;
     return s;
 }
@@ -30,9 +36,9 @@ struct Waitress {
     template <typename Menu>
     void printMenu(Menu& menu, std::function<bool(const MenuItem&)> predicate = {}) {
         if (predicate) {
-            for (auto& item : menu)
-                if (pred(item))
-                    std::cout << item;
+            for (auto& item : menu.menuItems)
+                if (predicate(item))
+                    std::cout << item << std::endl;
         } else {
             std::cout << menu;
         }
