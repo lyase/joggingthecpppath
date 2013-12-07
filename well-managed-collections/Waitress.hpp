@@ -33,27 +33,27 @@ struct Waitress {
     PancakeHouseMenu breakfastItems;
     DinerMenu lunchItems;
 
-    template <typename Menu>
-    void printMenu(Menu& menu, std::function<bool(const MenuItem&)> predicate = {}) {
+    template <typename Container>
+    void printMenu(Container& menu, std::function<bool(const MenuItem&)> predicate = {}) const {
         if (predicate) {
-            for (auto& item : menu.menuItems)
+            for (const auto& item : menu.menuItems)
                 if (predicate(item))
                     std::cout << item << std::endl;
         } else {
             std::cout << menu;
         }
     }
-    void printBoth() {
+    void printBoth() const {
         printBreakfastMenu();
         printLunchMenu();
     }
-    void printBreakfastMenu() {
+    void printBreakfastMenu() const {
         printMenu(breakfastItems);
     }
-    void printLunchMenu() {
+    void printLunchMenu() const {
         printMenu(lunchItems);
     }
-    void printVegitarianMenu() {
+    void printVegitarianMenu() const {
         auto isVege = [](const MenuItem& item) { return item.vegitarian; };
         printMenu(breakfastItems, isVege);
         printMenu(lunchItems, isVege);
