@@ -15,10 +15,16 @@ std::ostream& operator <<(std::ostream& s, const MenuItem& item) {
     return s;
 }
 
-/// Easy printing of a container of menu items
-template <typename Container>
-std::ostream& operator <<(std::ostream& s, const Container& menu) {
-    for(const MenuItem& item : menu)
+/// Easy printing of a DinerMenu of menu items
+std::ostream& operator <<(std::ostream& s, const DinerMenu& menu) {
+    for(const MenuItem& item : menu.menuItems)
+        s << item << std::endl;
+    return s;
+}
+
+/// Easy printing of a PancakeHouseMenu of menu items
+std::ostream& operator <<(std::ostream& s, const PancakeHouseMenu& menu) {
+    for(const MenuItem& item : menu.menuItems)
         s << item << std::endl;
     return s;
 }
@@ -27,27 +33,27 @@ struct Waitress {
     PancakeHouseMenu breakfastItems;
     DinerMenu lunchItems;
 
-    template <typename Menu>
-    void printMenu(Menu& menu, std::function<bool(const MenuItem&)> predicate = {}) {
+    template <typename Container>
+    void printMenu(Container& menu, std::function<bool(const MenuItem&)> predicate = {}) const {
         if (predicate) {
-            for (auto& item : menu)
-                if (pred(item))
-                    std::cout << item;
+            for (const auto& item : menu.menuItems)
+                if (predicate(item))
+                    std::cout << item << std::endl;
         } else {
             std::cout << menu;
         }
     }
-    void printBoth() {
+    void printBoth() const {
         printBreakfastMenu();
         printLunchMenu();
     }
-    void printBreakfastMenu() {
+    void printBreakfastMenu() const {
         printMenu(breakfastItems);
     }
-    void printLunchMenu() {
+    void printLunchMenu() const {
         printMenu(lunchItems);
     }
-    void printVegitarianMenu() {
+    void printVegitarianMenu() const {
         auto isVege = [](const MenuItem& item) { return item.vegitarian; };
         printMenu(breakfastItems, isVege);
         printMenu(lunchItems, isVege);
