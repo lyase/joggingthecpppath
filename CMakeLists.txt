@@ -39,6 +39,8 @@ if (NOT ${DOXYGEN_EXECUTABLE} STREQUAL "DOXYGEN_EXECUTABLE_NOT_FOUND")
         VERBATIM
     )
 endif()
+PROJECT(waitress)
+add_subdirectory(well-managed-collections)
 #------------------------------------------------------------------------------------------------------
 enable_testing()
 add_subdirectory(tests)
