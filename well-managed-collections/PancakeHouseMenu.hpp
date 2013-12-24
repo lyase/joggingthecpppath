@@ -3,8 +3,9 @@
 #include "MenuItem.hpp"
 
 #include <list>
-
-struct PancakeHouseMenu {
+#include <iostream>
+class PancakeHouseMenu {
+    public:
     std::list<MenuItem> menuItems = {
         {"K&B's Pancake Breakfast",
          "Pancakes with scrabled eggs, and toast",
@@ -20,3 +21,9 @@ struct PancakeHouseMenu {
         menuItems.push_back(item);
     }
 };
+/// helpers Easy printing of a PancakeHouseMenu of menu items
+std::ostream& operator <<(std::ostream& s, const PancakeHouseMenu& menu) {
+    for(const MenuItem& item : menu.menuItems)
+        s << item << std::endl;
+    return s;
+}

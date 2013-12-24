@@ -6,30 +6,8 @@
 
 #include <iostream>
 #include <functional>
-
-/// Easy printing of a menu item
-std::ostream& operator <<(std::ostream& s, const MenuItem& item) {
-    s << item.name << " "
-      << item.price << " "
-      << item.description;
-    return s;
-}
-
-/// Easy printing of a DinerMenu of menu items
-std::ostream& operator <<(std::ostream& s, const DinerMenu& menu) {
-    for(const MenuItem& item : menu.menuItems)
-        s << item << std::endl;
-    return s;
-}
-
-/// Easy printing of a PancakeHouseMenu of menu items
-std::ostream& operator <<(std::ostream& s, const PancakeHouseMenu& menu) {
-    for(const MenuItem& item : menu.menuItems)
-        s << item << std::endl;
-    return s;
-}
-
-struct Waitress {
+class Waitress {
+public:
     PancakeHouseMenu breakfastItems;
     DinerMenu lunchItems;
 

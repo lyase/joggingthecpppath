@@ -3,8 +3,9 @@
 #include "MenuItem.hpp"
 
 #include <vector>
-
-struct DinerMenu {
+#include <iostream>
+class DinerMenu {
+public:
     std::vector<MenuItem> menuItems = {
         {"Vegitarian BLT",
          "(Fakin') Bacon with lettuce",
@@ -20,3 +21,10 @@ struct DinerMenu {
          4.99}
     };
 };
+/// helpers  Easy printing of a DinerMenu of menu items
+std::ostream& operator <<(std::ostream& s, const DinerMenu& menu) {
+    for(const MenuItem& item : menu.menuItems)
+        s << item << std::endl;
+    return s;
+}
+
