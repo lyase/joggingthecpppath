@@ -2,12 +2,13 @@
 
 #include <string>
 #include <iostream>
+
 class MenuItem {
 public:
      MenuItem(    std::string _name,std::string _description, bool _vegitarian,    double _price) {
           name=_name;
           description= _description;
-          _vegitarian=_vegitarian;
+          vegitarian=_vegitarian;
           price= _price;
      }
      std::string name;
@@ -15,6 +16,7 @@ public:
      bool vegitarian;
      double price;
 };
+
 /// helpers  Easy printing of a menu item
 std::ostream& operator <<(std::ostream& s, const MenuItem& item)
 {
@@ -22,4 +24,11 @@ std::ostream& operator <<(std::ostream& s, const MenuItem& item)
        << item.price << " "
        << item.description;
      return s;
+}
+
+std::istream& operator >>(std::istream& s, MenuItem& item) {
+    s >> item.name;
+    s >> item.price;
+    s >> item.description;
+    return s;
 }
