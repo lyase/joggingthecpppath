@@ -43,15 +43,18 @@ Released: October 2004
 */
 
 void demo(Duck::Base* duck) {
-    /// Demo's the capabalities of a duck
+    /// Demo's the capabalities of any duck
     std::cout << "Display: ";
     duck->display();
     std::cout << "Quack: ";
     duck->quack();
+    std::cout<<std::endl;
     std::cout << "Swim: ";
     duck->swim();
+    std::cout<<std::endl;
     std::cout << "Fly: ";
     duck->fly();
+     std::cout<<std::endl;
 }
 
 int main(int, char**) {
