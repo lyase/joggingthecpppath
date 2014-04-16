@@ -25,17 +25,22 @@ namespace Duck {
 namespace Behaviour {
 
 class MallardQuack : public Quackable {
-    void quack() { std::cout << "I quack like a Mallard" << std::endl; }
+     void quack() {
+          std::cout << "I quack like a Mallard" << std::endl;
+     }
 };
 
 }
 void Mallard::setBehavior(Behaviour::Quackable* quack)
 {
-    quackable.reset(quack);
+     quackable.reset(quack);
 }
 
 Mallard::Mallard(Behaviour::Quackable* quack) : Base(new Behaviour::Flyable(), quack ? quack : new Behaviour::MallardQuack) {}
 
-void Mallard::display() { std::cout << "Mallard" << std::endl; }
+void Mallard::display()
+{
+     std::cout << "Mallard" << std::endl;
+}
 
 }

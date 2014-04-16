@@ -3,8 +3,9 @@
 
 namespace weathery {
 
-void WeatherData::setMeasurements(double temperature, double humidity, double pressure) {
-    notifyAllObservers(temperature, humidity, pressure);
+void WeatherData::setMeasurements(double temperature, double humidity, double pressure)
+{
+     notifyAllObservers(temperature, humidity, pressure);
 }
 
 }

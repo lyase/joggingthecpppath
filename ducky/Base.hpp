@@ -21,15 +21,15 @@ namespace Duck {
 */
 class Base {
 protected:
-    std::unique_ptr<Behaviour::Flyable> flyable;
-    std::unique_ptr<Behaviour::Quackable> quackable;
+     std::unique_ptr<Behaviour::Flyable> flyable;
+     std::unique_ptr<Behaviour::Quackable> quackable;
 public:
-    Base(Behaviour::Flyable* flyable, Behaviour::Quackable* quackable);
-    void swim();
-    virtual void display();
-    void setQuackBehavior(Behaviour::Quackable* newQuack);
-    void fly();
-    void quack();
-}; 
+     Base(Behaviour::Flyable* flyable, Behaviour::Quackable* quackable);
+     void swim();
+     virtual void display();
+     void setQuackBehavior(Behaviour::Quackable* newQuack);
+     void fly();
+     void quack();
+};
 
 }

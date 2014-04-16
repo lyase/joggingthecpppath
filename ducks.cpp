@@ -42,51 +42,53 @@ Released: October 2004
 * \param duck  .
 */
 
-void demo(Duck::Base* duck) {
-    /// Demo's the capabalities of any duck
-    std::cout << "Display: ";
-    duck->display();
-    std::cout << "Quack: ";
-    duck->quack();
-    std::cout<<std::endl;
-    std::cout << "Swim: ";
-    duck->swim();
-    std::cout<<std::endl;
-    std::cout << "Fly: ";
-    duck->fly();
+void demo(Duck::Base* duck)
+{
+     /// Demo's the capabalities of any duck
+     std::cout << "Display: ";
+     duck->display();
+     std::cout << "Quack: ";
+     duck->quack();
+     std::cout<<std::endl;
+     std::cout << "Swim: ";
+     duck->swim();
+     std::cout<<std::endl;
+     std::cout << "Fly: ";
+     duck->fly();
      std::cout<<std::endl;
 }
 
-int main(int, char**) {
-    std::unique_ptr<Duck::Base> d1(new Duck::Base(nullptr, nullptr));
-    std::unique_ptr<Duck::Behaviour::Quackable>mbehaviour ( new Duck::Behaviour::Squeak());
-    demo(d1.get());
+int main(int, char**)
+{
+     std::unique_ptr<Duck::Base> d1(new Duck::Base(nullptr, nullptr));
+     std::unique_ptr<Duck::Behaviour::Quackable>mbehaviour ( new Duck::Behaviour::Squeak());
+     demo(d1.get());
 
-    std::cout << std::endl << "... Changing to Mallard ..." << std::endl << std::endl;
+     std::cout << std::endl << "... Changing to Mallard ..." << std::endl << std::endl;
 
-    d1.reset(new Duck::Mallard());
-    demo(d1.get());
-    std::cout << std::endl << "... Changing at runTime behaviour of Mallard ..." << std::endl << std::endl;
-    mbehaviour.reset(new Duck::Behaviour::Squeak());
-    d1.get()->setQuackBehavior(mbehaviour.get());
-    demo(d1.get());
+     d1.reset(new Duck::Mallard());
+     demo(d1.get());
+     std::cout << std::endl << "... Changing at runTime behaviour of Mallard ..." << std::endl << std::endl;
+     mbehaviour.reset(new Duck::Behaviour::Squeak());
+     d1.get()->setQuackBehavior(mbehaviour.get());
+     demo(d1.get());
 
-    std::cout << std::endl << "... Changing to CUSTOM Mallard ..." << std::endl << std::endl;
+     std::cout << std::endl << "... Changing to CUSTOM Mallard ..." << std::endl << std::endl;
 
-    d1.reset(new Duck::Mallard(new Duck::Behaviour::Squeak()));
-    demo(d1.get());
-    std::cout << std::endl << "... Changing to Redhead ..." << std::endl << std::endl;
+     d1.reset(new Duck::Mallard(new Duck::Behaviour::Squeak()));
+     demo(d1.get());
+     std::cout << std::endl << "... Changing to Redhead ..." << std::endl << std::endl;
 
-    d1.reset(new Duck::Redhead());
-    demo(d1.get());
+     d1.reset(new Duck::Redhead());
+     demo(d1.get());
 
-    std::cout << std::endl << "... Changing to Rubber ..." << std::endl << std::endl;
+     std::cout << std::endl << "... Changing to Rubber ..." << std::endl << std::endl;
 
-    d1.reset(new Duck::Rubber());
-    demo(d1.get());
+     d1.reset(new Duck::Rubber());
+     demo(d1.get());
 
-    std::cout << std::endl << "... Changing to Decoy ..." << std::endl << std::endl;
+     std::cout << std::endl << "... Changing to Decoy ..." << std::endl << std::endl;
 
-    d1.reset(new Duck::Decoy());
-    demo(d1.get());
+     d1.reset(new Duck::Decoy());
+     demo(d1.get());
 }

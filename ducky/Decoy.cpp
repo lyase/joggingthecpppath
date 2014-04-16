@@ -20,7 +20,10 @@ Released: October 2004
 
 namespace Duck {
 
-void Decoy::display() { std::cout << "Decoy" << std::endl; }
+void Decoy::display()
+{
+     std::cout << "Decoy" << std::endl;
+}
 
 }
 

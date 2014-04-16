@@ -6,8 +6,8 @@ namespace Duck {
 
 class Redhead : public Base {
 public:
-    Redhead();
-    void virtual display();
+     Redhead();
+     void virtual display();
 };
 
 }

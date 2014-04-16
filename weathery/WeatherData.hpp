@@ -6,7 +6,7 @@ namespace weathery {
 
 class WeatherData : public ObserverPattern<double, double, double> {
 public:
-    void setMeasurements(double temperature, double humidity, double pressure);
+     void setMeasurements(double temperature, double humidity, double pressure);
 };
 
 }

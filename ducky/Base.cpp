@@ -23,25 +23,34 @@ Released: October 2004
 namespace Duck {
 
 Base::Base(Behaviour::Flyable* flyable, Behaviour::Quackable* quackable)
-    : flyable(flyable), quackable(quackable)
+     : flyable(flyable), quackable(quackable)
 {
 }
 
-void Base::swim() { std::cout << "Swim" << std::endl; }
-void Base::display() { std::cout << "Duck" << std::endl; }
-
-void Base::fly() {
-    if (flyable)
-        flyable->fly();
+void Base::swim()
+{
+     std::cout << "Swim" << std::endl;
+}
+void Base::display()
+{
+     std::cout << "Duck" << std::endl;
 }
 
-void Base::quack() {
-    if (quackable)
-        quackable->quack();
+void Base::fly()
+{
+     if (flyable)
+          flyable->fly();
 }
 
-void Base::setQuackBehavior(Behaviour::Quackable* newQuack) {
-    quackable.reset(newQuack);
+void Base::quack()
+{
+     if (quackable)
+          quackable->quack();
+}
+
+void Base::setQuackBehavior(Behaviour::Quackable* newQuack)
+{
+     quackable.reset(newQuack);
 }
 
 }

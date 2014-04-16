@@ -4,10 +4,10 @@ namespace weathery {
 
 class LCDDisplay  {
 public:
-    LCDDisplay();
+     LCDDisplay();
 
-    // Observer interface
-    void operator()(double temperature, double humidity, double pressure) const;
+     // Observer interface
+     void operator()(double temperature, double humidity, double pressure) const;
 };
 
 }

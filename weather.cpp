@@ -23,13 +23,14 @@ Released: October 2004
 #include "weathery/StatsKeeper.hpp"
 #include "weathery/ObserverPattern.hpp"
 
-int main(int, char**) {
-    weathery::WeatherData weather;
-    weathery::LCDDisplay tv;
-    weathery::StatsKeeper stats;
-    weather.addObserver(tv);
-    weather.addObserver(stats);
-    weather.setMeasurements(1, 2.2, 3.3);
-    weather.setMeasurements(10, 20.2, 33.3333333333333333333);
-    stats.display();
+int main(int, char**)
+{
+     weathery::WeatherData weather;
+     weathery::LCDDisplay tv;
+     weathery::StatsKeeper stats;
+     weather.addObserver(tv);
+     weather.addObserver(stats);
+     weather.setMeasurements(1, 2.2, 3.3);
+     weather.setMeasurements(10, 20.2, 33.3333333333333333333);
+     stats.display();
 }

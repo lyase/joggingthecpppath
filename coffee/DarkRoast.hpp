@@ -6,8 +6,8 @@ namespace coffee {
 
 class DarkRoast : public Beverage {
 public:
-    const char* description() const { return "Dark Roast"; }
-    double cost() const;
+     const char* description() const ;
+     double cost() const;
 };
 
 }

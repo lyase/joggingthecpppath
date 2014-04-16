@@ -1,10 +1,9 @@
 #ifndef PIZZASHOP_H
 #define PIZZASHOP_H
 
-class PizzaShop
-{
+class PizzaShop {
 public:
-    PizzaShop();
+     PizzaShop();
 };
 
 #endif // PIZZASHOP_H

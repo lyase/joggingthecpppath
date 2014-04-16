@@ -3,12 +3,14 @@
 
 namespace weathery {
 
-Observer::Observer(Subject& subject) : subject(subject) {
-    subject.registerObserver(this);
+Observer::Observer(Subject& subject) : subject(subject)
+{
+     subject.registerObserver(this);
 }
 
-Observer::~Observer() {
-    subject.removeObserver(this);
+Observer::~Observer()
+{
+     subject.removeObserver(this);
 }
 
 }

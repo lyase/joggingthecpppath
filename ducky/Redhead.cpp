@@ -25,7 +25,10 @@ namespace Duck {
 
 Redhead::Redhead() : Base(new Behaviour::Flyable(), new Behaviour::Quackable) {}
 
-void Redhead::display() { std::cout << "Redhead" << std::endl; }
+void Redhead::display()
+{
+     std::cout << "Redhead" << std::endl;
+}
 
 }
 
