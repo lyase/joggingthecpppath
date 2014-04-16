@@ -26,9 +26,10 @@ std::ostream& operator <<(std::ostream& s, const MenuItem& item)
      return s;
 }
 
-std::istream& operator >>(std::istream& s, MenuItem& item) {
-    s >> item.name;
-    s >> item.price;
-    s >> item.description;
-    return s;
+std::istream& operator >>(std::istream& s, MenuItem& item)
+{
+     s >> item.name;
+     s >> item.price;
+     s >> item.description;
+     return s;
 }
