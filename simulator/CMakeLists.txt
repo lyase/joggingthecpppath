@@ -1,5 +1,5 @@
 project (imulator)
-add_library(simulator STATIC  DuckFactory.cpp CountingDuckFactory.cpp QuackCounter.cpp)
+add_library(simulator STATIC  DuckFactory.cpp CountingDuckFactory.cpp QuackCounter.cpp AbstractDuckFactory.hpp DuckFactories.hpp)
 
 cmake_minimum_required(VERSION 2.8) # http://www.cmake.org/cmake/help/cmake-2-8-docs.html#command:cmake_minimum_required
 

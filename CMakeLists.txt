@@ -4,22 +4,22 @@ PROJECT(design_patterns)
 
 add_definitions(-std=c++11 -Wall -Wextra -pedantic)
 
-add_subdirectory(ducky)
+add_subdirectory(dynamicBehaviorDemo)
 ADD_EXECUTABLE(ducks ducks.cpp)
 target_link_libraries(ducks ducky)
 
-add_subdirectory(weathery)
+add_subdirectory(observerPattern)
 ADD_EXECUTABLE(weather weather.cpp)
 target_link_libraries(weather weathery)
 
-add_subdirectory(coffee)
+add_subdirectory(decoratorPattern)
 ADD_EXECUTABLE(cafe cafe.cpp)
 target_link_libraries(cafe coffee)
 add_subdirectory(factory)
 ADD_EXECUTABLE(factoryexe Factory.cpp)
 target_link_libraries(factoryexe factory)
 add_subdirectory(simulator)
-ADD_EXECUTABLE(sim simulator.cpp)
+ADD_EXECUTABLE(sim simulator.cpp )
 target_link_libraries(sim simulator)
 find_package(Doxygen)
 
@@ -42,7 +42,7 @@ if (NOT ${DOXYGEN_EXECUTABLE} STREQUAL "DOXYGEN_EXECUTABLE_NOT_FOUND")
         VERBATIM
     )
 endif()
-PROJECT(waitress)
+PROJECT(designPatterns)
 add_subdirectory(well-managed-collections)
 #------------------------------------------------------------------------------------------------------
 enable_testing()
