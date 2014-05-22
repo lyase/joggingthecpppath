@@ -18,10 +18,10 @@ Released: October 2004
 #include <iostream>
 #include <vector>
 
-#include "weathery/CurrentConditionsDisplay.hpp"
-#include "weathery/WeatherData.hpp"
-#include "weathery/StatsKeeper.hpp"
-#include "weathery/ObserverPattern.hpp"
+#include "observer/CurrentConditionsDisplay.hpp"
+#include "observer/WeatherData.hpp"
+#include "observer/StatsKeeper.hpp"
+#include "observer/ObserverPattern.hpp"
 
 int main(int, char**)
 {

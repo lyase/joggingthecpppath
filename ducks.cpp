@@ -3,8 +3,8 @@
 #include <memory>
 #include <iostream>
 
-#include "ducky/Base.hpp"
-#include "ducky/Redhead.hpp"
+#include "strategy/Base.hpp"
+#include "strategy/Redhead.hpp"
 /** \file main.cpp
 *source file defining a main application illustrating the strategy pattern as shown in  Head First Design Patterns
 By Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra .
@@ -29,12 +29,12 @@ Released: October 2004
 * =====================================================================================
 */
 
-#include "ducky/Mallard.hpp"
-#include "ducky/Rubber.hpp"
-#include "ducky/Decoy.hpp"
-#include "ducky/behaviours/Flyable.hpp"
-#include "ducky/behaviours/Quackable.hpp"
-#include "ducky/behaviours/Squeak.hpp"
+#include "strategy/Mallard.hpp"
+#include "strategy/Rubber.hpp"
+#include "strategy/Decoy.hpp"
+#include "strategy/behaviours/Flyable.hpp"
+#include "strategy/behaviours/Quackable.hpp"
+#include "strategy/behaviours/Squeak.hpp"
 /*! \fn void demo(Duck::Base* duck)
 * \brief A demo function for any object implementing the duck interface
 *  will call display quack swim and fly on the incomming object
