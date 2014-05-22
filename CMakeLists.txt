@@ -50,8 +50,3 @@ endif()
 enable_testing()
 add_subdirectory(tests)
 
-add_test(Runningduckprg ducks)
-add_test(Runningcafeprg cafe)
-add_test(Runningweatherprg weather)
-add_test(RunningTheDuckSimulator sim)
-add_test(Runningwaitress-ManagedCollections waitress )
