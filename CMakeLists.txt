@@ -1,4 +1,4 @@
-PROJECT(design_patterns)
+PROJECT(designPatterns)
 cmake_minimum_required(VERSION 2.8)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake_modules/")
@@ -44,14 +44,17 @@ message("* Current build type is : ${CMAKE_BUILD_TYPE}")
 
 add_definitions(-std=c++11 -Wall -Wextra -pedantic)
 
+add_subdirectory(dynamicBehaviorDemo)
 add_subdirectory(strategy)
 ADD_EXECUTABLE(ducks ducks.cpp)
 target_link_libraries(ducks strategy)
 
+add_subdirectory(observerPattern)
 add_subdirectory(observer)
 ADD_EXECUTABLE(weather weather.cpp)
 target_link_libraries(weather observerPattern)
 
+add_subdirectory(decoratorPattern)
 add_subdirectory(decorator)
 ADD_EXECUTABLE(cafe cafe.cpp)
 target_link_libraries(cafe decorator)
@@ -61,7 +64,7 @@ ADD_EXECUTABLE(factoryexe Factory.cpp)
 target_link_libraries(factoryexe factory)
 
 add_subdirectory(simulator)
-ADD_EXECUTABLE(sim simulator.cpp)
+ADD_EXECUTABLE(sim simulator.cpp )
 target_link_libraries(sim simulator)
 
 add_subdirectory(well-managed-collections)
@@ -89,7 +92,8 @@ if (NOT ${DOXYGEN_EXECUTABLE} STREQUAL "DOXYGEN_EXECUTABLE_NOT_FOUND")
         VERBATIM
     )
 endif()
-#-----------------------------------------enable test in tests folder-------------------------------------
+
+#------------------------------------------------------------------------------------------------------
 enable_testing()
 add_subdirectory(tests)
 
