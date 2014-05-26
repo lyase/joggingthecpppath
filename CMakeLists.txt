@@ -70,6 +70,9 @@ target_link_libraries(sim simulator)
 add_subdirectory(well-managed-collections)
 ADD_EXECUTABLE(waitress diner.cpp)
 target_link_libraries(waitress collections)
+add_subdirectory(commandPattern)
+ADD_EXECUTABLE(commandexe command.cpp)
+target_link_libraries(commandexe command)
 #-------------------------------------making doc target
 find_package(Doxygen)
 
