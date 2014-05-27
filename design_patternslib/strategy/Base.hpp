@@ -3,8 +3,8 @@
 #include <iostream>
 #include <memory>
 
-#include "behaviours/Flyable.hpp"
-#include "behaviours/Quackable.hpp"
+#include "../dynamicBehaviorDemo/behaviours/Flyable.hpp"
+#include "../dynamicBehaviorDemo/behaviours/Quackable.hpp"
 
 namespace Duck {
 /*! A Duck class

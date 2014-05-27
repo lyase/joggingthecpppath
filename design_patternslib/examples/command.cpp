@@ -1,8 +1,8 @@
 #include <iostream>
-#include "commandPattern/Light.hpp"
-#include "commandPattern/FlipDownCommand.hpp"
-#include "commandPattern/FlipUpCommand.hpp"
-#include "commandPattern/Switch.hpp"
+#include "../commandPattern/Light.hpp"
+#include "../commandPattern/FlipDownCommand.hpp"
+#include "../commandPattern/FlipUpCommand.hpp"
+#include "../commandPattern/Switch.hpp"
 using namespace std;
 
 /*The test class or client*/

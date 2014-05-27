@@ -1,10 +1,10 @@
 #include <iostream>
 #include <vector>
 
-#include "decoratorPattern/HouseBlend.hpp"
-#include "decoratorPattern/DarkRoast.hpp"
-#include "decoratorPattern/Decaf.hpp"
-#include "decoratorPattern/Espresso.hpp"
+#include "../decoratorPattern/HouseBlend.hpp"
+#include "../decoratorPattern/DarkRoast.hpp"
+#include "../decoratorPattern/Decaf.hpp"
+#include "../decoratorPattern/Espresso.hpp"
 
 int main(int, char**)
 {

@@ -1,8 +1,6 @@
-PROJECT(designPatterns)
 cmake_minimum_required(VERSION 2.8)
-
+project ("design_patterns")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake_modules/")
-
 # Add new build types
 message("* Adding build types...")
 
@@ -40,57 +38,21 @@ SET(CMAKE_BUILD_TYPE Debug                                  CACHE STRING "Choose
 ENDIF(NOT CMAKE_BUILD_TYPE)
 message("* Current build type is : ${CMAKE_BUILD_TYPE}")
 
-
-
-add_definitions(-std=c++11 -Wall -Wextra -pedantic)
-
-add_subdirectory(dynamicBehaviorDemo)
-add_subdirectory(strategy)
-ADD_EXECUTABLE(ducks ducks.cpp)
-target_link_libraries(ducks strategy)
-
-add_subdirectory(observerPattern)
-add_subdirectory(observer)
-ADD_EXECUTABLE(weather weather.cpp)
-target_link_libraries(weather observerPattern)
-
-add_subdirectory(decoratorPattern)
-add_subdirectory(decorator)
-ADD_EXECUTABLE(cafe cafe.cpp)
-target_link_libraries(cafe decorator)
-
-add_subdirectory(factory)
-ADD_EXECUTABLE(factoryexe Factory.cpp)
-target_link_libraries(factoryexe factory)
-
-add_subdirectory(simulator)
-ADD_EXECUTABLE(sim simulator.cpp )
-target_link_libraries(sim simulator)
-
-add_subdirectory(well-managed-collections)
-ADD_EXECUTABLE(waitress diner.cpp)
-target_link_libraries(waitress collections)
-add_subdirectory(commandPattern)
-ADD_EXECUTABLE(commandexe command.cpp)
-target_link_libraries(commandexe command)
-add_subdirectory(compositePattern)
-ADD_EXECUTABLE(compositeexe composite.cpp)
-target_link_libraries(compositeexe composite)
-#-------------------------------------making doc target
+#################################detecting doxygen before making a doc target###############################
 find_package(Doxygen)
 
 if (NOT ${DOXYGEN_EXECUTABLE} STREQUAL "DOXYGEN_EXECUTABLE_NOT_FOUND")
     message("${DOXYGEN_EXECUTABLE}")
-    file(COPY Doxyfile DESTINATION ${CMAKE_BINARY_DIR})
+configure_file(design_patternslib.cfg Doxyfile)
     set(COMMAND ${DOGYGEN_EXECUTABLE} Doxyfile)
-    add_custom_target(doc
+add_custom_target(doc
         ${DOXYGEN_EXECUTABLE} ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile
         WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
         COMMENT "Generating API documentation with Doxygen"
         VERBATIM
     )
 
-    add_custom_target(doc_pdf
+add_custom_target(doc_pdf
         make pdf
         WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/doc/latex
         DEPENDS doc
@@ -98,8 +60,55 @@ if (NOT ${DOXYGEN_EXECUTABLE} STREQUAL "DOXYGEN_EXECUTABLE_NOT_FOUND")
         VERBATIM
     )
 endif()
-
 #------------------------------------------------------------------------------------------------------
-enable_testing()
-add_subdirectory(tests)
+# http://www.cmake.org/cmake/help/cmake-2-8-docs.html#command:project
 
+# various Patterns
+add_subdirectory(commandPattern)
+add_subdirectory(compositePattern)
+add_subdirectory(decorator)
+add_subdirectory(decoratorPattern)
+add_subdirectory(dynamicBehaviorDemo)
+add_subdirectory(factory)
+add_subdirectory(iteratorPattern)
+add_subdirectory(observer)
+add_subdirectory(observerPattern)
+add_subdirectory(simulator)
+add_subdirectory(strategy)
+
+add_library(design_patternslib empty.cpp)
+target_link_libraries(design_patternslib commandPattern compositePattern decorator decoratorPattern dynamicBehaviorDemo  factory iteratorPattern observer observerPattern simulator strategy )
+ 
+#------------------------------------------------------------------------------------------------------
+
+enable_testing()
+
+add_subdirectory(tests)
+## Executables ##
+#Factory.cpp
+#cafe.cpp
+#command.cpp
+#composite.cpp
+#diner.cpp
+#ducks.cpp
+#greet.cpp
+#simulator.cpp
+#weather.cpp
+add_executable(Factory examples/Factory.cpp)
+TARGET_LINK_LIBRARIES(Factory design_patternslib)
+add_executable(coffee examples/cafe.cpp)
+TARGET_LINK_LIBRARIES(coffee design_patternslib)
+add_executable(command examples/command.cpp)
+TARGET_LINK_LIBRARIES(command  design_patternslib)
+add_executable(composite examples/composite.cpp)
+TARGET_LINK_LIBRARIES(composite design_patternslib)
+add_executable(waitress examples/diner.cpp)
+TARGET_LINK_LIBRARIES(waitress  design_patternslib)
+add_executable(duck examples/ducks.cpp)
+TARGET_LINK_LIBRARIES(duck design_patternslib)
+#ogreet.cpp
+add_executable(simul  examples/simulator.cpp)
+TARGET_LINK_LIBRARIES(simul  design_patternslib)
+add_executable(weatherstation examples/weather.cpp)
+TARGET_LINK_LIBRARIES(weatherstation design_patternslib)
+#------------------------------------------------------------------------------------------------------

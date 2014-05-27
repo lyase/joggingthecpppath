@@ -17,12 +17,10 @@ Released: October 2004
 */
 #include <iostream>
 #include <vector>
-
-#include "observerPattern/CurrentConditionsDisplay.hpp"
-#include "observerPattern/WeatherData.hpp"
-#include "observerPattern/StatsKeeper.hpp"
-#include "observerPattern/ObserverPattern.hpp"
-
+#include "../observerPattern/CurrentConditionsDisplay.hpp"
+#include "../observerPattern/WeatherData.hpp"
+#include "../observerPattern/StatsKeeper.hpp"
+#include "../observerPattern/ObserverPattern.hpp"
 int main(int, char**)
 {
      weathery::WeatherData weather;
