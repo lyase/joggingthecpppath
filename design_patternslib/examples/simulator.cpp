@@ -14,11 +14,10 @@
  *        Company:
  *
  * =====================================================================================
- */#include <iostream>
-
-#include "simulator/DuckSimulator.hpp"
-#include "simulator/DuckFactories.hpp"
-
+ */
+#include <iostream>
+#include "../simulator/DuckSimulator.hpp"
+#include "../simulator/DuckFactories.hpp"
 int main(int argc, char** argv)
 {
      DuckSimulator simulator(countingFactory());

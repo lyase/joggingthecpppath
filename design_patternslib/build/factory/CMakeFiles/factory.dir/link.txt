@@ -1,2 +1,0 @@
-/usr/bin/ar cr libfactory.a  CMakeFiles/factory.dir/Factory.cpp.o CMakeFiles/factory.dir/Pizza.cpp.o CMakeFiles/factory.dir/CheezePizza.cpp.o CMakeFiles/factory.dir/pizzashop.cpp.o
-/usr/bin/ranlib libfactory.a

@@ -4,7 +4,7 @@
 #include "../decoratorPattern/HouseBlend.hpp"
 #include "../decoratorPattern/DarkRoast.hpp"
 #include "../decoratorPattern/Decaf.hpp"
-#include "../design_patternslib/decoratorPattern/Espresso.hpp"
+#include "../decoratorPattern/Espresso.hpp"
 
 int main(int, char**)
 {

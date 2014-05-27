@@ -1,1 +1,0 @@
-/usr/bin/g++   -g -Wall -fprofile-arcs -ftest-coverage    CMakeFiles/waitress.dir/examples/diner.cpp.o  -o waitress -rdynamic -literatorPattern 

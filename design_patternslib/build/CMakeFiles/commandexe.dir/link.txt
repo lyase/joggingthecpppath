@@ -1,1 +1,0 @@
-/usr/bin/g++   -g -Wall -fprofile-arcs -ftest-coverage    CMakeFiles/commandexe.dir/examples/command.cpp.o  -o commandexe -rdynamic commandPattern/libcommand.a 

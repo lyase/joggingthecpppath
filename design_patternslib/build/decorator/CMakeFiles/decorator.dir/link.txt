@@ -1,2 +1,0 @@
-/usr/bin/ar cr libdecorator.a  CMakeFiles/decorator.dir/Beverage.cpp.o CMakeFiles/decorator.dir/HouseBlend.cpp.o CMakeFiles/decorator.dir/DarkRoast.cpp.o CMakeFiles/decorator.dir/Decaf.cpp.o CMakeFiles/decorator.dir/Espresso.cpp.o
-/usr/bin/ranlib libdecorator.a

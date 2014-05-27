@@ -2,7 +2,8 @@
 
 #include <iostream>
 #include <memory>
-
+#include <iostream>
+#include <memory>
 #include "behaviours/Flyable.hpp"
 #include "behaviours/Quackable.hpp"
 

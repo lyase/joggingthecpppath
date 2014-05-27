@@ -3,8 +3,8 @@
 #include <memory> // std::unique_ptr
 #include <algorithm> // std::for_each
 #include <functional> // std::mem_fun
-#include "compositePattern/Ellipse.hpp" // 
-#include "compositePattern/CompositeGraphic.hpp"
+#include "../compositePattern/Ellipse.hpp" // 
+#include "../compositePattern/CompositeGraphic.hpp"
 //build with
 //cmake
 int main()
