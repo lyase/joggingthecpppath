@@ -3,10 +3,10 @@
 #include <memory> // std::auto_ptr
 #include <algorithm> // std::for_each
 #include <functional> // std::mem_fun
-#include "Ellipse.hpp" // std::mem_fun
-#include "CompositeGraphic.hpp" // std::mem_fun
+#include "compositePattern/Ellipse.hpp" // 
+#include "compositePattern/CompositeGraphic.hpp"
 //build with
-//g++  composite/composite.cpp -o prg
+//cmake
 int main()
 {
      // Initialize four ellipses
