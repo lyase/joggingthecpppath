@@ -73,6 +73,9 @@ target_link_libraries(waitress collections)
 add_subdirectory(commandPattern)
 ADD_EXECUTABLE(commandexe command.cpp)
 target_link_libraries(commandexe command)
+add_subdirectory(compositePattern)
+ADD_EXECUTABLE(compositeexe composite.cpp)
+target_link_libraries(compositeexe composite)
 #-------------------------------------making doc target
 find_package(Doxygen)
 
