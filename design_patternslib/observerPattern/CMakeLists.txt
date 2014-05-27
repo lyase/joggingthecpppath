@@ -1,3 +1,3 @@
 PROJECT(observerPattern)
 
-add_library(weathery STATIC WeatherData.cpp Observer.cpp Subject.cpp CurrentConditionsDisplay.cpp StatsKeeper.cpp)
+add_library(observerPattern STATIC WeatherData.cpp Observer.cpp Subject.cpp CurrentConditionsDisplay.cpp StatsKeeper.cpp)

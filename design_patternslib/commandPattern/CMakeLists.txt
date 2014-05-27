@@ -1,5 +1,5 @@
 
-project (command)
+project (commandPattern)
 
-add_library(command STATIC FlipDownCommand.hpp FlipUpCommand.hpp ICommand.hpp Light.hpp Switch.hpp empty.cpp)
+add_library(commandPattern STATIC FlipDownCommand.hpp FlipUpCommand.hpp ICommand.hpp Light.hpp Switch.hpp empty.cpp)
 
