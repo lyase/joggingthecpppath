@@ -1,0 +1,2 @@
+/usr/bin/ar cr libweathery.a  CMakeFiles/weathery.dir/WeatherData.cpp.o CMakeFiles/weathery.dir/Observer.cpp.o CMakeFiles/weathery.dir/Subject.cpp.o CMakeFiles/weathery.dir/CurrentConditionsDisplay.cpp.o CMakeFiles/weathery.dir/StatsKeeper.cpp.o
+/usr/bin/ranlib libweathery.a

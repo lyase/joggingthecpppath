@@ -1,0 +1,1 @@
+/usr/bin/g++   -g -Wall -fprofile-arcs -ftest-coverage    CMakeFiles/compositeexe.dir/examples/composite.cpp.o  -o compositeexe -rdynamic compositePattern/libcomposite.a 

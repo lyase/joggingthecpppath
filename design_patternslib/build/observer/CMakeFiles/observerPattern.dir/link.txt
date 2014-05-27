@@ -1,0 +1,2 @@
+/usr/bin/ar cr libobserverPattern.a  CMakeFiles/observerPattern.dir/WeatherData.cpp.o CMakeFiles/observerPattern.dir/Observer.cpp.o CMakeFiles/observerPattern.dir/Subject.cpp.o CMakeFiles/observerPattern.dir/CurrentConditionsDisplay.cpp.o CMakeFiles/observerPattern.dir/StatsKeeper.cpp.o
+/usr/bin/ranlib libobserverPattern.a

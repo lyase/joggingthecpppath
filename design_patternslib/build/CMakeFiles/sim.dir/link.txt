@@ -1,0 +1,1 @@
+/usr/bin/g++   -g -Wall -fprofile-arcs -ftest-coverage    CMakeFiles/sim.dir/examples/simulator.cpp.o  -o sim -rdynamic simulator/libsimulator.a 

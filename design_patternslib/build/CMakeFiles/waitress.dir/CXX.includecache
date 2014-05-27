@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/diner.cpp
+well-managed-collections/Waitress.hpp
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/well-managed-collections/Waitress.hpp
+iostream
+-
+sstream
+-
+

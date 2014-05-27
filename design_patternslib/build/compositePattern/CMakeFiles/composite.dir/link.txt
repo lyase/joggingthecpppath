@@ -1,0 +1,2 @@
+/usr/bin/ar cr libcomposite.a  CMakeFiles/composite.dir/CompositeGraphic.cpp.o CMakeFiles/composite.dir/Ellipse.cpp.o
+/usr/bin/ranlib libcomposite.a

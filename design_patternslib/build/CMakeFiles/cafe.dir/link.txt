@@ -1,0 +1,1 @@
+/usr/bin/g++   -g -Wall -fprofile-arcs -ftest-coverage    CMakeFiles/cafe.dir/examples/cafe.cpp.o  -o cafe -rdynamic decorator/libdecorator.a 

@@ -1,0 +1,123 @@
+\hypertarget{classWaitress}{\section{Waitress Class Reference}
+\label{classWaitress}\index{Waitress@{Waitress}}
+}
+
+
+{\ttfamily \#include $<$Waitress.\-hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename Container $>$ }\\void \hyperlink{classWaitress_a090437ebd1aeb6e67f2b536134cdfb86}{print\-Menu} (Container \&menu, std\-::function$<$ bool(const \hyperlink{classMenuItem}{Menu\-Item} \&)$>$ predicate=\{\}) const 
+\item 
+void \hyperlink{classWaitress_ac1f1752d2de48891a36f7d9f09084f03}{print\-Both} () const 
+\item 
+void \hyperlink{classWaitress_a1f7e835181f612b34958d7e881c1f07c}{print\-Breakfast\-Menu} () const 
+\item 
+void \hyperlink{classWaitress_ad0ec31e9ed0ffcb4ef2ac7080e680148}{print\-Lunch\-Menu} () const 
+\item 
+void \hyperlink{classWaitress_a2339ba003c8e7ba31203d8cf722cf0c9}{print\-Vegitarian\-Menu} () const 
+\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classPancakeHouseMenu}{Pancake\-House\-Menu} \hyperlink{classWaitress_a2aad5575ac9dc18889dc7b72ba912ef6}{breakfast\-Items}
+\item 
+\hyperlink{classDinerMenu}{Diner\-Menu} \hyperlink{classWaitress_a4a6dcb402d0ed75daecd945e01b47cb1}{lunch\-Items}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classWaitress_ac1f1752d2de48891a36f7d9f09084f03}{\index{Waitress@{Waitress}!print\-Both@{print\-Both}}
+\index{print\-Both@{print\-Both}!Waitress@{Waitress}}
+\subsubsection[{print\-Both}]{\setlength{\rightskip}{0pt plus 5cm}void Waitress\-::print\-Both (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classWaitress_ac1f1752d2de48891a36f7d9f09084f03}
+
+
+References print\-Breakfast\-Menu(), and print\-Lunch\-Menu().
+
+
+
+Referenced by main().
+
+\hypertarget{classWaitress_a1f7e835181f612b34958d7e881c1f07c}{\index{Waitress@{Waitress}!print\-Breakfast\-Menu@{print\-Breakfast\-Menu}}
+\index{print\-Breakfast\-Menu@{print\-Breakfast\-Menu}!Waitress@{Waitress}}
+\subsubsection[{print\-Breakfast\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}void Waitress\-::print\-Breakfast\-Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classWaitress_a1f7e835181f612b34958d7e881c1f07c}
+
+
+References breakfast\-Items, and print\-Menu().
+
+
+
+Referenced by print\-Both().
+
+\hypertarget{classWaitress_ad0ec31e9ed0ffcb4ef2ac7080e680148}{\index{Waitress@{Waitress}!print\-Lunch\-Menu@{print\-Lunch\-Menu}}
+\index{print\-Lunch\-Menu@{print\-Lunch\-Menu}!Waitress@{Waitress}}
+\subsubsection[{print\-Lunch\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}void Waitress\-::print\-Lunch\-Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classWaitress_ad0ec31e9ed0ffcb4ef2ac7080e680148}
+
+
+References lunch\-Items, and print\-Menu().
+
+
+
+Referenced by print\-Both().
+
+\hypertarget{classWaitress_a090437ebd1aeb6e67f2b536134cdfb86}{\index{Waitress@{Waitress}!print\-Menu@{print\-Menu}}
+\index{print\-Menu@{print\-Menu}!Waitress@{Waitress}}
+\subsubsection[{print\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Container $>$ void Waitress\-::print\-Menu (
+\begin{DoxyParamCaption}
+\item[{Container \&}]{menu}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classWaitress_a090437ebd1aeb6e67f2b536134cdfb86}
+
+
+Referenced by print\-Breakfast\-Menu(), print\-Lunch\-Menu(), and print\-Vegitarian\-Menu().
+
+\hypertarget{classWaitress_a2339ba003c8e7ba31203d8cf722cf0c9}{\index{Waitress@{Waitress}!print\-Vegitarian\-Menu@{print\-Vegitarian\-Menu}}
+\index{print\-Vegitarian\-Menu@{print\-Vegitarian\-Menu}!Waitress@{Waitress}}
+\subsubsection[{print\-Vegitarian\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}void Waitress\-::print\-Vegitarian\-Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classWaitress_a2339ba003c8e7ba31203d8cf722cf0c9}
+
+
+References breakfast\-Items, lunch\-Items, and print\-Menu().
+
+
+
+Referenced by main().
+
+
+
+\subsection{Field Documentation}
+\hypertarget{classWaitress_a2aad5575ac9dc18889dc7b72ba912ef6}{\index{Waitress@{Waitress}!breakfast\-Items@{breakfast\-Items}}
+\index{breakfast\-Items@{breakfast\-Items}!Waitress@{Waitress}}
+\subsubsection[{breakfast\-Items}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Pancake\-House\-Menu} Waitress\-::breakfast\-Items}}\label{classWaitress_a2aad5575ac9dc18889dc7b72ba912ef6}
+
+
+Referenced by print\-Breakfast\-Menu(), and print\-Vegitarian\-Menu().
+
+\hypertarget{classWaitress_a4a6dcb402d0ed75daecd945e01b47cb1}{\index{Waitress@{Waitress}!lunch\-Items@{lunch\-Items}}
+\index{lunch\-Items@{lunch\-Items}!Waitress@{Waitress}}
+\subsubsection[{lunch\-Items}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Diner\-Menu} Waitress\-::lunch\-Items}}\label{classWaitress_a4a6dcb402d0ed75daecd945e01b47cb1}
+
+
+Referenced by print\-Lunch\-Menu(), and print\-Vegitarian\-Menu().
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Waitress_8hpp}{Waitress.\-hpp}\end{DoxyCompactItemize}

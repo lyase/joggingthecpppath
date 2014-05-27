@@ -1,0 +1,683 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html"><param name="Name" value="AbstractDuckFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html#a8a9401386517e2102310f03708e8f57e"><param name="Name" value="createDuckCall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html#a4f2659a908753f634857bf3954ad654c"><param name="Name" value="createMallard"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html#ac1dbc9d255de96c2cf0362a41e12ca15"><param name="Name" value="createRedheadDuck"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html#a978ebd6f631e2e610fa66d5f7c5628aa"><param name="Name" value="createRubberDuck"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCompositeGraphic.html#afd74074a4c4429f63585aea1363dd1aa"><param name="Name" value="add"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCompositeGraphic.html#afd74074a4c4429f63585aea1363dd1aa"><param name="Name" value="CompositeGraphic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html#aacd4eaa3e4a0797cd21395cc5b1ff183"><param name="Name" value="Flock"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPancakeHouseMenu.html#a122170d360df4b588bf4a3a3296b709b"><param name="Name" value="addItem"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#ac0af75c6744eb7c493620a401a903e68"><param name="Name" value="addObserver"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#ac0af75c6744eb7c493620a401a903e68"><param name="Name" value="ObserverPattern< double, double, double >"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#ac0af75c6744eb7c493620a401a903e68"><param name="Name" value="weathery::ObserverPattern"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a36472565bdb9dc108f77af46c3fd1e3e"><param name="Name" value="bake"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a36472565bdb9dc108f77af46c3fd1e3e"><param name="Name" value="factory::CheezePizza"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#a493d61c20ae58bb79be630266ec03b29"><param name="Name" value="factory::Pizza"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#ab657fde28f50e206e21f4325fe0c79db"><param name="Name" value="Base"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hellotest_8cpp.html#a93bce0ca731bc605e176d1558bd10585"><param name="Name" value="BOOST_AUTO_TEST_CASE"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a66893916732b61d899a6cb7ca6192a27"><param name="Name" value="box"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a66893916732b61d899a6cb7ca6192a27"><param name="Name" value="factory::CheezePizza"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#ad419daf09268a0cd905b4d6c874c2798"><param name="Name" value="factory::Pizza"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#a2aad5575ac9dc18889dc7b72ba912ef6"><param name="Name" value="breakfastItems"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="bug.html"><param name="Name" value="Bug List"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="cafe_8cpp.html"><param name="Name" value="cafe.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a952c4b12948285067d745396e0bd6300"><param name="Name" value="CheezePizza"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html"><param name="Name" value="CMakeCCompilerId.c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#a59647e99d304ed33b15cb284c27ed391"><param name="Name" value="info_arch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#a4b0efeb7a5d59313986b3a0390f050f6"><param name="Name" value="info_compiler"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#a2321403dee54ee23f0c2fa849c60f7d4"><param name="Name" value="info_platform"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#a74688a78009d8531274b1c3cb63ba8aa"><param name="Name" value="info_version"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#acdef7a1fd863a6d3770c1268cb06add3"><param name="Name" value="main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCXXCompilerId_8cpp.html"><param name="Name" value="CMakeCXXCompilerId.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCXXCompilerId_8cpp.html#a59647e99d304ed33b15cb284c27ed391"><param name="Name" value="info_arch"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCXXCompilerId_8cpp.html#a4b0efeb7a5d59313986b3a0390f050f6"><param name="Name" value="info_compiler"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCXXCompilerId_8cpp.html#a2321403dee54ee23f0c2fa849c60f7d4"><param name="Name" value="info_platform"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCXXCompilerId_8cpp.html#a74688a78009d8531274b1c3cb63ba8aa"><param name="Name" value="info_version"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCXXCompilerId_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"><param name="Name" value="main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacecoffee.html"><param name="Name" value="coffee"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Beverage.html"><param name="Name" value="coffee::Beverage"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Beverage.html#ad412eac730de94b25dd5e3e5c5cb5d20"><param name="Name" value="cost"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Beverage.html#adb1d5bf7b3d64448bb115bdc738e0d15"><param name="Name" value="description"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Beverage.html#ad2f121f17244a54c6bfa5c867e25858a"><param name="Name" value="~Beverage"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1DarkRoast.html"><param name="Name" value="coffee::DarkRoast"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1DarkRoast.html#af91170e239056b8b1543e238253493c5"><param name="Name" value="cost"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1DarkRoast.html#aa6220dddcb4c1bfe890d07a2cf5b113c"><param name="Name" value="description"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Decaf.html"><param name="Name" value="coffee::Decaf"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Decaf.html#a3afc8486dfa2aeb3aca1e6aeb4de7b8d"><param name="Name" value="cost"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Decaf.html#ab76517b848c6ea2dfbee332e5b294f83"><param name="Name" value="description"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Espresso.html"><param name="Name" value="coffee::Espresso"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Espresso.html#ad48532ee375c9c81f6a6042ac90057fc"><param name="Name" value="cost"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Espresso.html#a1176df58b3fbeec164c26d11c5b2ab62"><param name="Name" value="description"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1HouseBlend.html"><param name="Name" value="coffee::HouseBlend"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1HouseBlend.html#a3076f71c59e90441e80cb96754ce81f9"><param name="Name" value="cost"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1HouseBlend.html#aa1309b95ad5eefe9c98daef5f1ffb0da"><param name="Name" value="description"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommand.html"><param name="Name" value="Command"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="command_8cpp.html"><param name="Name" value="command.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommand.html"><param name="Name" value="Command"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="composite_8cpp.html"><param name="Name" value="composite.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCompositeGraphic.html"><param name="Name" value="CompositeGraphic"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCompositeGraphic.html#afd74074a4c4429f63585aea1363dd1aa"><param name="Name" value="add"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCompositeGraphic.html#af199123fd661fa7d94bfbc590e6b9ed1"><param name="Name" value="graphicList_"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCompositeGraphic.html#a0aa29ff6471a74e221c7acf2b2a4cdd4"><param name="Name" value="print"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Beverage.html#ad412eac730de94b25dd5e3e5c5cb5d20"><param name="Name" value="cost"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Beverage.html#ad412eac730de94b25dd5e3e5c5cb5d20"><param name="Name" value="coffee::Beverage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1DarkRoast.html#af91170e239056b8b1543e238253493c5"><param name="Name" value="coffee::DarkRoast"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Decaf.html#a3afc8486dfa2aeb3aca1e6aeb4de7b8d"><param name="Name" value="coffee::Decaf"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Espresso.html#ad48532ee375c9c81f6a6042ac90057fc"><param name="Name" value="coffee::Espresso"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1HouseBlend.html#a3076f71c59e90441e80cb96754ce81f9"><param name="Name" value="coffee::HouseBlend"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a6d2ac42bccf983922755a390563d001a"><param name="Name" value="factory::CheezePizza"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#a3e014027d8bdeadb3132104ff5b02d7f"><param name="Name" value="factory::Pizza"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCountingDuckFactory.html"><param name="Name" value="CountingDuckFactory"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="CountingDuckFactory_8cpp.html"><param name="Name" value="CountingDuckFactory.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCountingDuckFactory.html"><param name="Name" value="CountingDuckFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCountingDuckFactory.html#ad84a3230488bc2df178dae509c18ad29"><param name="Name" value="createDuckCall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCountingDuckFactory.html#a064817cdc46a7b3bb11a9f7fd9b89d09"><param name="Name" value="createMallard"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCountingDuckFactory.html#a0bf3e0f675d363eb20acf1430447473f"><param name="Name" value="createRedheadDuck"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCountingDuckFactory.html#a82e9b5dfa34f030d5a6c23e5c8b8a461"><param name="Name" value="createRubberDuck"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="CountingDuckFactory_8cpp.html#a90273b2f75ffdbafbdc23a96caff238f"><param name="Name" value="countingFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CountingDuckFactory_8cpp.html#a90273b2f75ffdbafbdc23a96caff238f"><param name="Name" value="CountingDuckFactory.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="DuckFactories_8hpp.html#a90273b2f75ffdbafbdc23a96caff238f"><param name="Name" value="DuckFactories.hpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html#a8a9401386517e2102310f03708e8f57e"><param name="Name" value="createDuckCall"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html#a8a9401386517e2102310f03708e8f57e"><param name="Name" value="AbstractDuckFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCountingDuckFactory.html#ad84a3230488bc2df178dae509c18ad29"><param name="Name" value="CountingDuckFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckFactory.html#afadfd97d90c1e5906e8a07cc56aa10c5"><param name="Name" value="DuckFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html#a4f2659a908753f634857bf3954ad654c"><param name="Name" value="createMallard"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html#a4f2659a908753f634857bf3954ad654c"><param name="Name" value="AbstractDuckFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCountingDuckFactory.html#a064817cdc46a7b3bb11a9f7fd9b89d09"><param name="Name" value="CountingDuckFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckFactory.html#a70a3896b653505b1e49a0efe7cea8cc2"><param name="Name" value="DuckFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html#ac1dbc9d255de96c2cf0362a41e12ca15"><param name="Name" value="createRedheadDuck"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html#ac1dbc9d255de96c2cf0362a41e12ca15"><param name="Name" value="AbstractDuckFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCountingDuckFactory.html#a0bf3e0f675d363eb20acf1430447473f"><param name="Name" value="CountingDuckFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckFactory.html#a5026fd889a3ed0f6eba8fff35e6fb751"><param name="Name" value="DuckFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html#a978ebd6f631e2e610fa66d5f7c5628aa"><param name="Name" value="createRubberDuck"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classAbstractDuckFactory.html#a978ebd6f631e2e610fa66d5f7c5628aa"><param name="Name" value="AbstractDuckFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCountingDuckFactory.html#a82e9b5dfa34f030d5a6c23e5c8b8a461"><param name="Name" value="CountingDuckFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckFactory.html#a90660d3ac9c71f0882fcce1209d811ed"><param name="Name" value="DuckFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a43582709eb73c392037bbde25e821c1e"><param name="Name" value="cut"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a43582709eb73c392037bbde25e821c1e"><param name="Name" value="factory::CheezePizza"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#a5afa8dacb807ea9f0e72c193f67891a5"><param name="Name" value="factory::Pizza"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Decoy.html#aa51e0609ff8d86843f38dc0125291d9a"><param name="Name" value="Decoy"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="ducks_8cpp.html#a50f88ffdb9c1bc5ccd674b851733b3d5"><param name="Name" value="demo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Beverage.html#adb1d5bf7b3d64448bb115bdc738e0d15"><param name="Name" value="description"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Beverage.html#adb1d5bf7b3d64448bb115bdc738e0d15"><param name="Name" value="coffee::Beverage"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1DarkRoast.html#aa6220dddcb4c1bfe890d07a2cf5b113c"><param name="Name" value="coffee::DarkRoast"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Decaf.html#ab76517b848c6ea2dfbee332e5b294f83"><param name="Name" value="coffee::Decaf"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Espresso.html#a1176df58b3fbeec164c26d11c5b2ab62"><param name="Name" value="coffee::Espresso"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1HouseBlend.html#aa1309b95ad5eefe9c98daef5f1ffb0da"><param name="Name" value="coffee::HouseBlend"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#acdae52ba564212a0c93c4d693c992317"><param name="Name" value="factory::CheezePizza"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#abac6bf7c66d3af20bcb6c2d5957dd5b0"><param name="Name" value="factory::Pizza"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMenuItem.html#adb476bca2e942c3056ad279c0b1c0866"><param name="Name" value="MenuItem"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="diner_8cpp.html"><param name="Name" value="diner.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDinerMenu.html"><param name="Name" value="DinerMenu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="DinerMenu_8hpp.html"><param name="Name" value="DinerMenu.hpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDinerMenu.html"><param name="Name" value="DinerMenu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a18415db6c7c55e69fdbb0af2117fab5a"><param name="Name" value="display"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a18415db6c7c55e69fdbb0af2117fab5a"><param name="Name" value="Duck::Base"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Decoy.html#adcd17c2c863795f61a9b256663d9d11c"><param name="Name" value="Duck::Decoy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Mallard.html#a8f10b346c1b253b86cdd9c1ab7825589"><param name="Name" value="Duck::Mallard"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Redhead.html#aba649300e35ba117ed95f7af1aedb243"><param name="Name" value="Duck::Redhead"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Rubber.html#ac0190a75e2f35366fec97d6bac6b23fe"><param name="Name" value="Duck::Rubber"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1StatsKeeper.html#acf2cadc44e383d01d69863edc4073edd"><param name="Name" value="weathery::StatsKeeper"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceDuck.html"><param name="Name" value="Duck"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html"><param name="Name" value="Duck::Base"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#ab657fde28f50e206e21f4325fe0c79db"><param name="Name" value="Base"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a18415db6c7c55e69fdbb0af2117fab5a"><param name="Name" value="display"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a29bb853c2b67718ff8844cebd9b418f0"><param name="Name" value="fly"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#aa0d116b55dc759d6d5c01eeb9af5add9"><param name="Name" value="flyable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a8979b42c246c31e18f93ca519eca68c1"><param name="Name" value="quack"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#ae34ecb3b0d147b27551f401cae8f0ebb"><param name="Name" value="quackable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a8257773259d768702279242b5c8dc822"><param name="Name" value="setQuackBehavior"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a1c72783da226ddefacfb4dc4ef0f46e2"><param name="Name" value="swim"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceDuck_1_1Behaviour.html"><param name="Name" value="Duck::Behaviour"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1Base.html"><param name="Name" value="Duck::Behaviour::Base"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1Base.html#aa5e169d54a3f8c8a73c5ce82ddb622ba"><param name="Name" value="~Base"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1Flyable.html"><param name="Name" value="Duck::Behaviour::Flyable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1Flyable.html#a4c8a85d92e2d2397ca9685b558dc667b"><param name="Name" value="fly"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1MallardQuack.html"><param name="Name" value="Duck::Behaviour::MallardQuack"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1MallardQuack.html#a73a205d7e280972403732cfeb9295109"><param name="Name" value="quack"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1Quackable.html"><param name="Name" value="Duck::Behaviour::Quackable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1Quackable.html#a85a955e6ab4ae97f2d388d1513870b7d"><param name="Name" value="quack"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1Squeak.html"><param name="Name" value="Duck::Behaviour::Squeak"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1Squeak.html#a2504dbcb70f545e4bdd63a26763e8c17"><param name="Name" value="quack"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Decoy.html"><param name="Name" value="Duck::Decoy"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Decoy.html#aa51e0609ff8d86843f38dc0125291d9a"><param name="Name" value="Decoy"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Decoy.html#adcd17c2c863795f61a9b256663d9d11c"><param name="Name" value="display"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Mallard.html"><param name="Name" value="Duck::Mallard"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Mallard.html#a8f10b346c1b253b86cdd9c1ab7825589"><param name="Name" value="display"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Mallard.html#a086b61537b7a62f1753964128f72cbfd"><param name="Name" value="Mallard"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Mallard.html#afe0df86a1ef26d4cb8e9076912fc1510"><param name="Name" value="setBehavior"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Redhead.html"><param name="Name" value="Duck::Redhead"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Redhead.html#aba649300e35ba117ed95f7af1aedb243"><param name="Name" value="display"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Redhead.html#a3ef8c2f06f0f87646168745e93289491"><param name="Name" value="Redhead"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Rubber.html"><param name="Name" value="Duck::Rubber"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Rubber.html#ac0190a75e2f35366fec97d6bac6b23fe"><param name="Name" value="display"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Rubber.html#ae70af34ecdbb195ecf4880435663fc0d"><param name="Name" value="Rubber"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html#ae1a02e816895e53c27e3229666756a2c"><param name="Name" value="duck"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html#ae1a02e816895e53c27e3229666756a2c"><param name="Name" value="Observable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackCounter.html#ad3d5690807efd62ecd5045e45e05ae9d"><param name="Name" value="QuackCounter"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckCall.html"><param name="Name" value="DuckCall"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckCall.html#a8a3508a6f881c72fc3d532babaffed25"><param name="Name" value="DuckCall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckCall.html#ab9d3e8941fd92173090121e7bce0317a"><param name="Name" value="observable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="DuckFactories_8hpp.html"><param name="Name" value="DuckFactories.hpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="DuckFactories_8hpp.html#a90273b2f75ffdbafbdc23a96caff238f"><param name="Name" value="countingFactory"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="DuckFactories_8hpp.html#ae6ce18264b65093ab71d713b67572eaa"><param name="Name" value="normalFactory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckFactory.html"><param name="Name" value="DuckFactory"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="DuckFactory_8cpp.html"><param name="Name" value="DuckFactory.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckFactory.html"><param name="Name" value="DuckFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckFactory.html#afadfd97d90c1e5906e8a07cc56aa10c5"><param name="Name" value="createDuckCall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckFactory.html#a70a3896b653505b1e49a0efe7cea8cc2"><param name="Name" value="createMallard"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckFactory.html#a5026fd889a3ed0f6eba8fff35e6fb751"><param name="Name" value="createRedheadDuck"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckFactory.html#a90660d3ac9c71f0882fcce1209d811ed"><param name="Name" value="createRubberDuck"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="ducks_8cpp.html"><param name="Name" value="ducks.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ducks_8cpp.html#a50f88ffdb9c1bc5ccd674b851733b3d5"><param name="Name" value="demo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ducks_8cpp.html#a2c3f6775325c30275d11c6abee2db6a0"><param name="Name" value="main"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckSimulator.html"><param name="Name" value="DuckSimulator"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckSimulator.html#a1c462de5e64b6bafb6aeee1f844ffbff"><param name="Name" value="DuckSimulator"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckSimulator.html#ad151b1df82adb3a176a790df0b6ae2b1"><param name="Name" value="factory"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classEllipse.html"><param name="Name" value="Ellipse"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEllipse.html#a837d8f29455932adf5c639f58f856333"><param name="Name" value="print"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="examples_2Factory_8cpp.html"><param name="Name" value="examples/Factory.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="examples_2simulator_8cpp.html"><param name="Name" value="examples/simulator.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommand.html#a6fd7d9bd8df8bfc881e4d6c7cd1878b7"><param name="Name" value="execute"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCommand.html#a6fd7d9bd8df8bfc881e4d6c7cd1878b7"><param name="Name" value="Command"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipDownCommand.html#a5514f3bdf8d7601f3252361635f9c3a1"><param name="Name" value="FlipDownCommand"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipUpCommand.html#a5130aaef4e36aa54f5a6a466b779b225"><param name="Name" value="FlipUpCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespacefactory.html"><param name="Name" value="factory"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html"><param name="Name" value="factory::CheezePizza"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a36472565bdb9dc108f77af46c3fd1e3e"><param name="Name" value="bake"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a66893916732b61d899a6cb7ca6192a27"><param name="Name" value="box"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a952c4b12948285067d745396e0bd6300"><param name="Name" value="CheezePizza"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a6d2ac42bccf983922755a390563d001a"><param name="Name" value="cost"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#a43582709eb73c392037bbde25e821c1e"><param name="Name" value="cut"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1CheezePizza.html#acdae52ba564212a0c93c4d693c992317"><param name="Name" value="description"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html"><param name="Name" value="factory::Pizza"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#a493d61c20ae58bb79be630266ec03b29"><param name="Name" value="bake"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#ad419daf09268a0cd905b4d6c874c2798"><param name="Name" value="box"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#a3e014027d8bdeadb3132104ff5b02d7f"><param name="Name" value="cost"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#a5afa8dacb807ea9f0e72c193f67891a5"><param name="Name" value="cut"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#abac6bf7c66d3af20bcb6c2d5957dd5b0"><param name="Name" value="description"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#ad2d63765f0ceb522d009122d9db1adda"><param name="Name" value="Pizza"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#ada063dc87feb2dd0d872e3df55bf7c03"><param name="Name" value="~Pizza"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckSimulator.html#ad151b1df82adb3a176a790df0b6ae2b1"><param name="Name" value="factory"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSwitch.html#aa280f6f53ea293f8142f8fa2cd45c3ed"><param name="Name" value="flipDown"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipDownCommand.html"><param name="Name" value="FlipDownCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipDownCommand.html#a5514f3bdf8d7601f3252361635f9c3a1"><param name="Name" value="execute"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipDownCommand.html#af218198d340956c93e27033f48258bf8"><param name="Name" value="FlipDownCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSwitch.html#af069b11fc4dab647c39da8d09edcf6c5"><param name="Name" value="flipDownCommand"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipDownCommand.html"><param name="Name" value="FlipDownCommand"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSwitch.html#a897907b3d656b36a8bad9a830b294504"><param name="Name" value="flipUp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipUpCommand.html"><param name="Name" value="FlipUpCommand"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipUpCommand.html#a5130aaef4e36aa54f5a6a466b779b225"><param name="Name" value="execute"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipUpCommand.html#aae6e1231a8e842aa6d91843a2b2280ca"><param name="Name" value="FlipUpCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSwitch.html#aa6e2a2d4568aa542ab2e28e5a4da1d3c"><param name="Name" value="flipUpCommand"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipUpCommand.html"><param name="Name" value="FlipUpCommand"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html"><param name="Name" value="Flock"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html#aacd4eaa3e4a0797cd21395cc5b1ff183"><param name="Name" value="add"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html#a642f5892b550e2d46e109938156131e4"><param name="Name" value="notifyObservers"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html#a3bbac4b6672dd5b30c5edeba5e70fe72"><param name="Name" value="quack"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html#a53e167d71e14dfd64e02c35cc6c94433"><param name="Name" value="quackables"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html#a715e88d384d12d8277807eee93ade6eb"><param name="Name" value="registerObserver"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a29bb853c2b67718ff8844cebd9b418f0"><param name="Name" value="fly"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a29bb853c2b67718ff8844cebd9b418f0"><param name="Name" value="Duck::Base"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1Flyable.html#a4c8a85d92e2d2397ca9685b558dc667b"><param name="Name" value="Duck::Behaviour::Flyable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#aa0d116b55dc759d6d5c01eeb9af5add9"><param name="Name" value="flyable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classGoose.html"><param name="Name" value="Goose"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classGooseAdaptor.html#a723584e4a4277e8c3802ca9fa69fa30d"><param name="Name" value="goose"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classGoose.html"><param name="Name" value="Goose"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classGooseAdaptor.html"><param name="Name" value="GooseAdaptor"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGooseAdaptor.html#a723584e4a4277e8c3802ca9fa69fa30d"><param name="Name" value="goose"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGooseAdaptor.html#ae21f2cdc0fb40342822871a8707b31c0"><param name="Name" value="GooseAdaptor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGooseAdaptor.html#aedde36f5569b473495e840ae6da28a89"><param name="Name" value="notifyObservers"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGooseAdaptor.html#abbfd47943a0323e667083b7a1c4de51c"><param name="Name" value="observable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGooseAdaptor.html#ae7b77a04d41102f386baf4f7ce7943f2"><param name="Name" value="quack"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGooseAdaptor.html#ab439fc56798543fb6ee48f52d20a5ddb"><param name="Name" value="registerObserver"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classGraphic.html"><param name="Name" value="Graphic"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGraphic.html#ab9307ecd30324ec5018ca7d1e88781b9"><param name="Name" value="print"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGraphic.html#ab3bbc2327419f52c1e36b626067bf9e1"><param name="Name" value="~Graphic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCompositeGraphic.html#af199123fd661fa7d94bfbc590e6b9ed1"><param name="Name" value="graphicList_"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="greet_8cpp.html"><param name="Name" value="greet.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="hellotest_8cpp.html"><param name="Name" value="hellotest.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1StatsKeeper.html#afde98e97c09b6b9ccb8a54805b9b5717"><param name="Name" value="history"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classGoose.html#a476cebaaa457a0b7b0f0fb290c819514"><param name="Name" value="honk"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structweathery_1_1StatsKeeper_1_1Entry.html#a1d568e120f91e0abfe526efd31ea2690"><param name="Name" value="humidity"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#a59647e99d304ed33b15cb284c27ed391"><param name="Name" value="info_arch"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#a59647e99d304ed33b15cb284c27ed391"><param name="Name" value="CMakeCCompilerId.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCXXCompilerId_8cpp.html#a59647e99d304ed33b15cb284c27ed391"><param name="Name" value="CMakeCXXCompilerId.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#a4b0efeb7a5d59313986b3a0390f050f6"><param name="Name" value="info_compiler"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#a4b0efeb7a5d59313986b3a0390f050f6"><param name="Name" value="CMakeCCompilerId.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCXXCompilerId_8cpp.html#a4b0efeb7a5d59313986b3a0390f050f6"><param name="Name" value="CMakeCXXCompilerId.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#a2321403dee54ee23f0c2fa849c60f7d4"><param name="Name" value="info_platform"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#a2321403dee54ee23f0c2fa849c60f7d4"><param name="Name" value="CMakeCCompilerId.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCXXCompilerId_8cpp.html#a2321403dee54ee23f0c2fa849c60f7d4"><param name="Name" value="CMakeCXXCompilerId.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#a74688a78009d8531274b1c3cb63ba8aa"><param name="Name" value="info_version"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#a74688a78009d8531274b1c3cb63ba8aa"><param name="Name" value="CMakeCCompilerId.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCXXCompilerId_8cpp.html#a74688a78009d8531274b1c3cb63ba8aa"><param name="Name" value="CMakeCXXCompilerId.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIQuackObservable.html"><param name="Name" value="IQuackObservable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIQuackObservable.html#aaa18b333b2a7eb7f698c0f590ccab7f5"><param name="Name" value="notifyObservers"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIQuackObservable.html#ac2c11f51db71de4ec1facfe6e562f3bc"><param name="Name" value="registerObserver"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIQuackObservable.html#a1fc3c6245d6b331cd39c6e08c0b6497e"><param name="Name" value="~IQuackObservable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1LCDDisplay.html#aaa163040e94444b9b768cce651289537"><param name="Name" value="LCDDisplay"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classLight.html"><param name="Name" value="Light"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classLight.html#aeb5df09a25a32f19fdffa761268ba24f"><param name="Name" value="Light"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classLight.html#aee2ab836d8c984756e10e8e301130aa4"><param name="Name" value="turnOff"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classLight.html#a79613afb0cf7788c131091afccb46aef"><param name="Name" value="turnOn"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#a4a6dcb402d0ed75daecd945e01b47cb1"><param name="Name" value="lunchItems"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="cafe_8cpp.html#a2c3f6775325c30275d11c6abee2db6a0"><param name="Name" value="main"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="cafe_8cpp.html#a2c3f6775325c30275d11c6abee2db6a0"><param name="Name" value="cafe.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCCompilerId_8c.html#acdef7a1fd863a6d3770c1268cb06add3"><param name="Name" value="CMakeCCompilerId.c"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="CMakeCXXCompilerId_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"><param name="Name" value="CMakeCXXCompilerId.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="command_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4"><param name="Name" value="command.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="composite_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4"><param name="Name" value="composite.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="diner_8cpp.html#a2c3f6775325c30275d11c6abee2db6a0"><param name="Name" value="diner.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="ducks_8cpp.html#a2c3f6775325c30275d11c6abee2db6a0"><param name="Name" value="ducks.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="examples_2Factory_8cpp.html#a2c3f6775325c30275d11c6abee2db6a0"><param name="Name" value="examples/Factory.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="examples_2simulator_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627"><param name="Name" value="examples/simulator.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="greet_8cpp.html#ae0665038b72011f5c680c660fcb59459"><param name="Name" value="greet.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="simulator_2simulator_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627"><param name="Name" value="simulator/simulator.cpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="weather_8cpp.html#a2c3f6775325c30275d11c6abee2db6a0"><param name="Name" value="weather.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Mallard.html#a086b61537b7a62f1753964128f72cbfd"><param name="Name" value="Mallard"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMallardDuck.html"><param name="Name" value="MallardDuck"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMallardDuck.html#aca18aedcbb5606ff72d26735093e39ec"><param name="Name" value="MallardDuck"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMallardDuck.html#ac0b2efc39c48e3fc850a7621d0f26a3a"><param name="Name" value="observable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMenuItem.html"><param name="Name" value="MenuItem"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MenuItem_8hpp.html"><param name="Name" value="MenuItem.hpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MenuItem_8hpp.html#a89b10b4d4f724eef313174f48587b2df"><param name="Name" value="operator<<"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MenuItem_8hpp.html#aa8c0d07ae88d1835f25b6d7105592f72"><param name="Name" value="operator>>"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMenuItem.html"><param name="Name" value="MenuItem"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMenuItem.html#adb476bca2e942c3056ad279c0b1c0866"><param name="Name" value="description"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMenuItem.html#a185ddfeabe922b5d06a534a8782b7bea"><param name="Name" value="MenuItem"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMenuItem.html#a0e46de23f339da33aebb4b14ada546a7"><param name="Name" value="name"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMenuItem.html#a05ed0defbede1c8398b3f3a610c1c732"><param name="Name" value="price"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMenuItem.html#afe18f07bb75ef12db765b92a245d9ac3"><param name="Name" value="vegitarian"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDinerMenu.html#aae5fb565703a8f251d3271fb83368aa7"><param name="Name" value="menuItems"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDinerMenu.html#aae5fb565703a8f251d3271fb83368aa7"><param name="Name" value="DinerMenu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPancakeHouseMenu.html#a6fbeb614aa15ade6f89350849ce7a41f"><param name="Name" value="PancakeHouseMenu"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMenuItem.html#a0e46de23f339da33aebb4b14ada546a7"><param name="Name" value="name"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="DuckFactories_8hpp.html#ae6ce18264b65093ab71d713b67572eaa"><param name="Name" value="normalFactory"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="DuckFactories_8hpp.html#ae6ce18264b65093ab71d713b67572eaa"><param name="Name" value="DuckFactories.hpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="DuckFactory_8cpp.html#ae6ce18264b65093ab71d713b67572eaa"><param name="Name" value="DuckFactory.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#a0bcda2aee3c12ece85cfa8299fb8192f"><param name="Name" value="notifyAllObservers"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#a0bcda2aee3c12ece85cfa8299fb8192f"><param name="Name" value="ObserverPattern< double, double, double >"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#a0bcda2aee3c12ece85cfa8299fb8192f"><param name="Name" value="weathery::ObserverPattern"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html#a642f5892b550e2d46e109938156131e4"><param name="Name" value="notifyObservers"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html#a642f5892b550e2d46e109938156131e4"><param name="Name" value="Flock"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGooseAdaptor.html#aedde36f5569b473495e840ae6da28a89"><param name="Name" value="GooseAdaptor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIQuackObservable.html#aaa18b333b2a7eb7f698c0f590ccab7f5"><param name="Name" value="IQuackObservable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html#ad88b0ad8e623c5450ac3857daeb1c330"><param name="Name" value="Observable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Subject.html#a95b6ef8aeb9841c70ff44d60013e1fb0"><param name="Name" value="weathery::Subject"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackCounter.html#a8d4bf6fc94ce9aace25559b8f233acb6"><param name="Name" value="numberOfQuacks"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html"><param name="Name" value="Observable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html#ae1a02e816895e53c27e3229666756a2c"><param name="Name" value="duck"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckCall.html#ab9d3e8941fd92173090121e7bce0317a"><param name="Name" value="observable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuckCall.html#ab9d3e8941fd92173090121e7bce0317a"><param name="Name" value="DuckCall"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGooseAdaptor.html#abbfd47943a0323e667083b7a1c4de51c"><param name="Name" value="GooseAdaptor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classMallardDuck.html#ac0b2efc39c48e3fc850a7621d0f26a3a"><param name="Name" value="MallardDuck"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html"><param name="Name" value="Observable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html#ad88b0ad8e623c5450ac3857daeb1c330"><param name="Name" value="notifyObservers"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html#a59998e0044f29315ab3ba641a8a5c778"><param name="Name" value="Observable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html#aabdb218af3f0e4e48d0c3bfa03069801"><param name="Name" value="observers"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackCounter.html#a87ae3d63f7a9c240fd3f771b30292270"><param name="Name" value="observable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackCounter.html#a87ae3d63f7a9c240fd3f771b30292270"><param name="Name" value="QuackCounter"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRedheadDuck.html#a3d7422c27dbb6def7a7c4b6bcb04d067"><param name="Name" value="RedheadDuck"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html"><param name="Name" value="Observable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRubberDuck.html#aa15c9a6c44288dfcef988bd28d97b35d"><param name="Name" value="observable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classObserver.html"><param name="Name" value="Observer"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="observer_2Observer_8hpp.html"><param name="Name" value="observer/Observer.hpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#a75ab8ae0f2df5a5692bb2ef8adb6b81e"><param name="Name" value="Observer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#a75ab8ae0f2df5a5692bb2ef8adb6b81e"><param name="Name" value="ObserverPattern< double, double, double >"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classObserver.html#aac7dfd09eafe706aec4789ce9d212bc1"><param name="Name" value="update"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Observer.html#a5292ac78b08a58d8981b7fca7540d1ed"><param name="Name" value="weathery::Observer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#a75ab8ae0f2df5a5692bb2ef8adb6b81e"><param name="Name" value="weathery::ObserverPattern"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classObserver.html#afcc6b67be6c386f2f3d2c363aa59cb47"><param name="Name" value="~Observer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#acbf2c3e5633b874c6799a071bf8e3603"><param name="Name" value="ObserverList"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#acbf2c3e5633b874c6799a071bf8e3603"><param name="Name" value="ObserverPattern< double, double, double >"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#acbf2c3e5633b874c6799a071bf8e3603"><param name="Name" value="weathery::ObserverPattern"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html"><param name="Name" value="ObserverPattern< double, double, double >"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#ac0af75c6744eb7c493620a401a903e68"><param name="Name" value="addObserver"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#a0bcda2aee3c12ece85cfa8299fb8192f"><param name="Name" value="notifyAllObservers"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#a75ab8ae0f2df5a5692bb2ef8adb6b81e"><param name="Name" value="Observer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#acbf2c3e5633b874c6799a071bf8e3603"><param name="Name" value="ObserverList"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html#aabdb218af3f0e4e48d0c3bfa03069801"><param name="Name" value="observers"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html#aabdb218af3f0e4e48d0c3bfa03069801"><param name="Name" value="Observable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#af26dc7f95568144b80f7ba48899d38cc"><param name="Name" value="weathery::ObserverPattern"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1LCDDisplay.html#ad3a1214ea183da20ad136cdaf8ab2a12"><param name="Name" value="operator()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1LCDDisplay.html#ad3a1214ea183da20ad136cdaf8ab2a12"><param name="Name" value="weathery::LCDDisplay"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1StatsKeeper.html#a900b21ed49df0a434dfe55d921ad8857"><param name="Name" value="weathery::StatsKeeper"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="DinerMenu_8hpp.html#ae60d61e587ffb78434581e54a1b32340"><param name="Name" value="operator<<"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="DinerMenu_8hpp.html#ae60d61e587ffb78434581e54a1b32340"><param name="Name" value="DinerMenu.hpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="MenuItem_8hpp.html#a89b10b4d4f724eef313174f48587b2df"><param name="Name" value="MenuItem.hpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="PancakeHouseMenu_8hpp.html#adc0204bcda66ddf41b8abb1cea0494aa"><param name="Name" value="PancakeHouseMenu.hpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="MenuItem_8hpp.html#aa8c0d07ae88d1835f25b6d7105592f72"><param name="Name" value="operator>>"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPancakeHouseMenu.html"><param name="Name" value="PancakeHouseMenu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="PancakeHouseMenu_8hpp.html"><param name="Name" value="PancakeHouseMenu.hpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPancakeHouseMenu.html"><param name="Name" value="PancakeHouseMenu"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPancakeHouseMenu.html#a122170d360df4b588bf4a3a3296b709b"><param name="Name" value="addItem"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPancakeHouseMenu.html#a6fbeb614aa15ade6f89350849ce7a41f"><param name="Name" value="menuItems"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#ad2d63765f0ceb522d009122d9db1adda"><param name="Name" value="Pizza"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classPizzaShop.html"><param name="Name" value="PizzaShop"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classPizzaShop.html#af70321b9a21e08f05f0be94c5dadb4ea"><param name="Name" value="PizzaShop"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceweathery.html#a69461a0f24f63483845bda07be57b6d2"><param name="Name" value="pObserver"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceweathery.html#a69461a0f24f63483845bda07be57b6d2"><param name="Name" value="observer/Observer.hpp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceweathery.html#a69461a0f24f63483845bda07be57b6d2"><param name="Name" value="weathery"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structweathery_1_1StatsKeeper_1_1Entry.html#af9aaf0fc3d410f2e4187f3ede9c29506"><param name="Name" value="pressure"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMenuItem.html#a05ed0defbede1c8398b3f3a610c1c732"><param name="Name" value="price"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classCompositeGraphic.html#a0aa29ff6471a74e221c7acf2b2a4cdd4"><param name="Name" value="print"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classCompositeGraphic.html#a0aa29ff6471a74e221c7acf2b2a4cdd4"><param name="Name" value="CompositeGraphic"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classEllipse.html#a837d8f29455932adf5c639f58f856333"><param name="Name" value="Ellipse"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGraphic.html#ab9307ecd30324ec5018ca7d1e88781b9"><param name="Name" value="Graphic"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#ac1f1752d2de48891a36f7d9f09084f03"><param name="Name" value="printBoth"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#a1f7e835181f612b34958d7e881c1f07c"><param name="Name" value="printBreakfastMenu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#ad0ec31e9ed0ffcb4ef2ac7080e680148"><param name="Name" value="printLunchMenu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#a090437ebd1aeb6e67f2b536134cdfb86"><param name="Name" value="printMenu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#a2339ba003c8e7ba31203d8cf722cf0c9"><param name="Name" value="printVegitarianMenu"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a8979b42c246c31e18f93ca519eca68c1"><param name="Name" value="quack"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a8979b42c246c31e18f93ca519eca68c1"><param name="Name" value="Duck::Base"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1MallardQuack.html#a73a205d7e280972403732cfeb9295109"><param name="Name" value="Duck::Behaviour::MallardQuack"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1Quackable.html#a85a955e6ab4ae97f2d388d1513870b7d"><param name="Name" value="Duck::Behaviour::Quackable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1Squeak.html#a2504dbcb70f545e4bdd63a26763e8c17"><param name="Name" value="Duck::Behaviour::Squeak"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html#a3bbac4b6672dd5b30c5edeba5e70fe72"><param name="Name" value="Flock"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGooseAdaptor.html#ae7b77a04d41102f386baf4f7ce7943f2"><param name="Name" value="GooseAdaptor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackable.html#a1f9bb1e1bbe5991d48bd38ffb05c245c"><param name="Name" value="Quackable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackable.html"><param name="Name" value="Quackable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#ae34ecb3b0d147b27551f401cae8f0ebb"><param name="Name" value="quackable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackable.html"><param name="Name" value="Quackable"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackable.html#a1f9bb1e1bbe5991d48bd38ffb05c245c"><param name="Name" value="quack"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackable.html#ab96f84a129b852f5d41c2b9a42772a4d"><param name="Name" value="~Quackable"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html#a53e167d71e14dfd64e02c35cc6c94433"><param name="Name" value="quackables"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackCounter.html"><param name="Name" value="QuackCounter"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackCounter.html#ad3d5690807efd62ecd5045e45e05ae9d"><param name="Name" value="duck"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackCounter.html#a8d4bf6fc94ce9aace25559b8f233acb6"><param name="Name" value="numberOfQuacks"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackCounter.html#a87ae3d63f7a9c240fd3f771b30292270"><param name="Name" value="observable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackCounter.html#abcaaa010f4f16a2948aaeddacafe7eb8"><param name="Name" value="QuackCounter"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackologist.html"><param name="Name" value="Quackologist"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackologist.html#a4fafec41c778f9f067d61cd1001ef2f4"><param name="Name" value="update"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Redhead.html#a3ef8c2f06f0f87646168745e93289491"><param name="Name" value="Redhead"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRedheadDuck.html"><param name="Name" value="RedheadDuck"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRedheadDuck.html#a3d7422c27dbb6def7a7c4b6bcb04d067"><param name="Name" value="observable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRedheadDuck.html#a60af85db9491d67d020e1f305e6a4474"><param name="Name" value="RedheadDuck"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html#a715e88d384d12d8277807eee93ade6eb"><param name="Name" value="registerObserver"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlock.html#a715e88d384d12d8277807eee93ade6eb"><param name="Name" value="Flock"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classGooseAdaptor.html#ab439fc56798543fb6ee48f52d20a5ddb"><param name="Name" value="GooseAdaptor"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classIQuackObservable.html#ac2c11f51db71de4ec1facfe6e562f3bc"><param name="Name" value="IQuackObservable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classObservable.html#ac6a84599589838adccb4d182182e645f"><param name="Name" value="Observable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Subject.html#a5cef5b21e8462e11787945e48f88db91"><param name="Name" value="weathery::Subject"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Subject.html#af546027d412bc160e3d3f0a88336754c"><param name="Name" value="removeObserver"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Rubber.html#ae70af34ecdbb195ecf4880435663fc0d"><param name="Name" value="Rubber"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classRubberDuck.html"><param name="Name" value="RubberDuck"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRubberDuck.html#aa15c9a6c44288dfcef988bd28d97b35d"><param name="Name" value="observable"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classRubberDuck.html#a9f65964d163c3708d445694f9fedecdb"><param name="Name" value="RubberDuck"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Mallard.html#afe0df86a1ef26d4cb8e9076912fc1510"><param name="Name" value="setBehavior"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1WeatherData.html#a9f1c2cbb66bce1d158bddd8e89c82f1f"><param name="Name" value="setMeasurements"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a8257773259d768702279242b5c8dc822"><param name="Name" value="setQuackBehavior"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="simulator_2simulator_8cpp.html"><param name="Name" value="simulator/simulator.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Observer.html#a4530966661b7f302ec0d4d5c750e4060"><param name="Name" value="subject"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Base.html#a1c72783da226ddefacfb4dc4ef0f46e2"><param name="Name" value="swim"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classSwitch.html"><param name="Name" value="Switch"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSwitch.html#aa280f6f53ea293f8142f8fa2cd45c3ed"><param name="Name" value="flipDown"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSwitch.html#af069b11fc4dab647c39da8d09edcf6c5"><param name="Name" value="flipDownCommand"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSwitch.html#a897907b3d656b36a8bad9a830b294504"><param name="Name" value="flipUp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSwitch.html#aa6e2a2d4568aa542ab2e28e5a4da1d3c"><param name="Name" value="flipUpCommand"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classSwitch.html#a66ba6728853f391a84ac8f9c51e25141"><param name="Name" value="Switch"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structweathery_1_1StatsKeeper_1_1Entry.html#a8c9080294daa9e66839e16b6284de661"><param name="Name" value="temperature"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipDownCommand.html#a74f7f12538ecf5b5921e289a4c1129a5"><param name="Name" value="theLight"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipDownCommand.html#a74f7f12538ecf5b5921e289a4c1129a5"><param name="Name" value="FlipDownCommand"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classFlipUpCommand.html#a0fbc80da677f2a8b95952585ff20b473"><param name="Name" value="FlipUpCommand"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classLight.html#aee2ab836d8c984756e10e8e301130aa4"><param name="Name" value="turnOff"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classLight.html#a79613afb0cf7788c131091afccb46aef"><param name="Name" value="turnOn"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classObserver.html#aac7dfd09eafe706aec4789ce9d212bc1"><param name="Name" value="update"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classObserver.html#aac7dfd09eafe706aec4789ce9d212bc1"><param name="Name" value="Observer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackologist.html#a4fafec41c778f9f067d61cd1001ef2f4"><param name="Name" value="Quackologist"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Observer.html#af73d2df2721638234f76c6b7ea2cea23"><param name="Name" value="weathery::Observer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classMenuItem.html#afe18f07bb75ef12db765b92a245d9ac3"><param name="Name" value="vegitarian"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html"><param name="Name" value="Waitress"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#a2aad5575ac9dc18889dc7b72ba912ef6"><param name="Name" value="breakfastItems"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#a4a6dcb402d0ed75daecd945e01b47cb1"><param name="Name" value="lunchItems"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#ac1f1752d2de48891a36f7d9f09084f03"><param name="Name" value="printBoth"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#a1f7e835181f612b34958d7e881c1f07c"><param name="Name" value="printBreakfastMenu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#ad0ec31e9ed0ffcb4ef2ac7080e680148"><param name="Name" value="printLunchMenu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#a090437ebd1aeb6e67f2b536134cdfb86"><param name="Name" value="printMenu"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classWaitress.html#a2339ba003c8e7ba31203d8cf722cf0c9"><param name="Name" value="printVegitarianMenu"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="weather_8cpp.html"><param name="Name" value="weather.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceweathery.html"><param name="Name" value="weathery"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1LCDDisplay.html"><param name="Name" value="weathery::LCDDisplay"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1LCDDisplay.html#aaa163040e94444b9b768cce651289537"><param name="Name" value="LCDDisplay"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1LCDDisplay.html#ad3a1214ea183da20ad136cdaf8ab2a12"><param name="Name" value="operator()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Observer.html"><param name="Name" value="weathery::Observer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Observer.html#a5292ac78b08a58d8981b7fca7540d1ed"><param name="Name" value="Observer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Observer.html#a4530966661b7f302ec0d4d5c750e4060"><param name="Name" value="subject"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Observer.html#af73d2df2721638234f76c6b7ea2cea23"><param name="Name" value="update"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Observer.html#a450645e61c136826f09940a1334c7f34"><param name="Name" value="~Observer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html"><param name="Name" value="weathery::ObserverPattern"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#ac0af75c6744eb7c493620a401a903e68"><param name="Name" value="addObserver"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#a0bcda2aee3c12ece85cfa8299fb8192f"><param name="Name" value="notifyAllObservers"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#a75ab8ae0f2df5a5692bb2ef8adb6b81e"><param name="Name" value="Observer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#acbf2c3e5633b874c6799a071bf8e3603"><param name="Name" value="ObserverList"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1ObserverPattern.html#af26dc7f95568144b80f7ba48899d38cc"><param name="Name" value="observers"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1StatsKeeper.html"><param name="Name" value="weathery::StatsKeeper"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="structweathery_1_1StatsKeeper_1_1Entry.html"><param name="Name" value="weathery::StatsKeeper::Entry"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structweathery_1_1StatsKeeper_1_1Entry.html#a1d568e120f91e0abfe526efd31ea2690"><param name="Name" value="humidity"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structweathery_1_1StatsKeeper_1_1Entry.html#af9aaf0fc3d410f2e4187f3ede9c29506"><param name="Name" value="pressure"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="structweathery_1_1StatsKeeper_1_1Entry.html#a8c9080294daa9e66839e16b6284de661"><param name="Name" value="temperature"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1StatsKeeper.html"><param name="Name" value="weathery::StatsKeeper"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1StatsKeeper.html#acf2cadc44e383d01d69863edc4073edd"><param name="Name" value="display"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1StatsKeeper.html#afde98e97c09b6b9ccb8a54805b9b5717"><param name="Name" value="history"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1StatsKeeper.html#a900b21ed49df0a434dfe55d921ad8857"><param name="Name" value="operator()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Subject.html"><param name="Name" value="weathery::Subject"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Subject.html#a95b6ef8aeb9841c70ff44d60013e1fb0"><param name="Name" value="notifyObservers"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Subject.html#a5cef5b21e8462e11787945e48f88db91"><param name="Name" value="registerObserver"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Subject.html#af546027d412bc160e3d3f0a88336754c"><param name="Name" value="removeObserver"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Subject.html#af681fb25de069a7e6414a437ee2d8460"><param name="Name" value="~Subject"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1WeatherData.html"><param name="Name" value="weathery::WeatherData"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1WeatherData.html#a9f1c2cbb66bce1d158bddd8e89c82f1f"><param name="Name" value="setMeasurements"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespaceweathery.html"><param name="Name" value="weathery"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classDuck_1_1Behaviour_1_1Base.html#aa5e169d54a3f8c8a73c5ce82ddb622ba"><param name="Name" value="~Base"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classcoffee_1_1Beverage.html#ad2f121f17244a54c6bfa5c867e25858a"><param name="Name" value="~Beverage"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classGraphic.html#ab3bbc2327419f52c1e36b626067bf9e1"><param name="Name" value="~Graphic"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classIQuackObservable.html#a1fc3c6245d6b331cd39c6e08c0b6497e"><param name="Name" value="~IQuackObservable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classObserver.html#afcc6b67be6c386f2f3d2c363aa59cb47"><param name="Name" value="~Observer"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classObserver.html#afcc6b67be6c386f2f3d2c363aa59cb47"><param name="Name" value="Observer"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Observer.html#a450645e61c136826f09940a1334c7f34"><param name="Name" value="weathery::Observer"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classfactory_1_1Pizza.html#ada063dc87feb2dd0d872e3df55bf7c03"><param name="Name" value="~Pizza"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classQuackable.html#ab96f84a129b852f5d41c2b9a42772a4d"><param name="Name" value="~Quackable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classweathery_1_1Subject.html#af681fb25de069a7e6414a437ee2d8460"><param name="Name" value="~Subject"></OBJECT>
+</UL>
+</BODY>
+</HTML>

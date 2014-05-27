@@ -1,0 +1,2 @@
+/usr/bin/ar cr libstrategy.a  CMakeFiles/strategy.dir/Base.cpp.o CMakeFiles/strategy.dir/Decoy.cpp.o CMakeFiles/strategy.dir/Mallard.cpp.o CMakeFiles/strategy.dir/Redhead.cpp.o CMakeFiles/strategy.dir/Rubber.cpp.o CMakeFiles/strategy.dir/behaviours/Base.cpp.o CMakeFiles/strategy.dir/behaviours/Flyable.cpp.o CMakeFiles/strategy.dir/behaviours/Quackable.cpp.o CMakeFiles/strategy.dir/behaviours/Squeak.cpp.o
+/usr/bin/ranlib libstrategy.a

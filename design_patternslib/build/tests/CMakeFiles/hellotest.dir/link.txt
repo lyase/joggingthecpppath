@@ -1,0 +1,1 @@
+/usr/bin/g++   -g -Wall -fprofile-arcs -ftest-coverage    CMakeFiles/hellotest.dir/hellotest.cpp.o  -o hellotest -rdynamic -lpthread -lboost_filesystem-mt -lboost_system-mt -lboost_filesystem-mt -lboost_system-mt -lboost_unit_test_framework-mt 

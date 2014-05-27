@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/../decoratorPattern/Beverage.hpp
+
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/../decoratorPattern/DarkRoast.hpp
+Beverage.hpp
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/../decoratorPattern/Beverage.hpp
+
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/../decoratorPattern/Decaf.hpp
+Beverage.hpp
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/../decoratorPattern/Beverage.hpp
+
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/../decoratorPattern/HouseBlend.hpp
+Beverage.hpp
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/../decoratorPattern/Beverage.hpp
+
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/cafe.cpp
+iostream
+-
+vector
+-
+../decoratorPattern/HouseBlend.hpp
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/../decoratorPattern/HouseBlend.hpp
+../decoratorPattern/DarkRoast.hpp
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/../decoratorPattern/DarkRoast.hpp
+../decoratorPattern/Decaf.hpp
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/../decoratorPattern/Decaf.hpp
+../design_patternslib/decoratorPattern/Espresso.hpp
+/home/ubsafder/temp/dojo/joggingthecpppath/design_patternslib/examples/../design_patternslib/decoratorPattern/Espresso.hpp
+

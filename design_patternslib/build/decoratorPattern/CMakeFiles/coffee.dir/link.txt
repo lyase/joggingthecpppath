@@ -1,0 +1,2 @@
+/usr/bin/ar cr libcoffee.a  CMakeFiles/coffee.dir/Beverage.cpp.o CMakeFiles/coffee.dir/HouseBlend.cpp.o CMakeFiles/coffee.dir/DarkRoast.cpp.o CMakeFiles/coffee.dir/Decaf.cpp.o CMakeFiles/coffee.dir/Espresso.cpp.o
+/usr/bin/ranlib libcoffee.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsimulator.a  CMakeFiles/simulator.dir/DuckFactory.cpp.o CMakeFiles/simulator.dir/CountingDuckFactory.cpp.o CMakeFiles/simulator.dir/QuackCounter.cpp.o
+/usr/bin/ranlib libsimulator.a

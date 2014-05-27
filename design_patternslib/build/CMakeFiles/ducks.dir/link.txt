@@ -1,0 +1,1 @@
+/usr/bin/g++   -g -Wall -fprofile-arcs -ftest-coverage    CMakeFiles/ducks.dir/examples/ducks.cpp.o  -o ducks -rdynamic strategy/libstrategy.a 

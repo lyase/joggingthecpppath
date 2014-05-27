@@ -1,0 +1,1 @@
+/usr/bin/g++   -g -Wall -fprofile-arcs -ftest-coverage    CMakeFiles/factoryexe.dir/examples/Factory.cpp.o  -o factoryexe -rdynamic factory/libfactory.a 

@@ -1,0 +1,128 @@
+\hypertarget{classFlock}{\section{Flock Class Reference}
+\label{classFlock}\index{Flock@{Flock}}
+}
+
+
+
+
+  
+
+
+
+
+{\ttfamily \#include $<$Flock.\-hpp$>$}
+
+Inheritance diagram for Flock\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classFlock}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+p\-Quackable \hyperlink{classFlock_aacd4eaa3e4a0797cd21395cc5b1ff183}{add} (p\-Quackable quackable)
+\item 
+virtual void \hyperlink{classFlock_a3bbac4b6672dd5b30c5edeba5e70fe72}{quack} () override
+\item 
+void \hyperlink{classFlock_a715e88d384d12d8277807eee93ade6eb}{register\-Observer} (p\-Observer observer)
+\item 
+void \hyperlink{classFlock_a642f5892b550e2d46e109938156131e4}{notify\-Observers} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\-::vector$<$ p\-Quackable $>$ \hyperlink{classFlock_a53e167d71e14dfd64e02c35cc6c94433}{quackables}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+ 
+
+\begin{DoxyVerb}  Filename:  Flock.hpp
+\end{DoxyVerb}
+
+
+Description\-: Implements a flock of ducks \begin{DoxyVerb}Version:  1.0
+Created:  02/08/13 17:52:15
+\end{DoxyVerb}
+ Revision\-: none Compiler\-: gcc
+
+Author\-: Matthew Sherborne (), \href{mailto:msherborne@gmail.com}{\tt msherborne@gmail.\-com} 
+
+ A flock of ducks. this is a collection that Implements \hyperlink{classQuackable}{Quackable}, so a quack call will be pushed out to many children 
+
+\subsection{Member Function Documentation}
+\hypertarget{classFlock_aacd4eaa3e4a0797cd21395cc5b1ff183}{\index{Flock@{Flock}!add@{add}}
+\index{add@{add}!Flock@{Flock}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}p\-Quackable Flock\-::add (
+\begin{DoxyParamCaption}
+\item[{p\-Quackable}]{quackable}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classFlock_aacd4eaa3e4a0797cd21395cc5b1ff183}
+
+
+References quackables.
+
+\hypertarget{classFlock_a642f5892b550e2d46e109938156131e4}{\index{Flock@{Flock}!notify\-Observers@{notify\-Observers}}
+\index{notify\-Observers@{notify\-Observers}!Flock@{Flock}}
+\subsubsection[{notify\-Observers}]{\setlength{\rightskip}{0pt plus 5cm}void Flock\-::notify\-Observers (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classFlock_a642f5892b550e2d46e109938156131e4}
+
+
+Implements \hyperlink{classIQuackObservable_aaa18b333b2a7eb7f698c0f590ccab7f5}{I\-Quack\-Observable}.
+
+
+
+References quackables.
+
+\hypertarget{classFlock_a3bbac4b6672dd5b30c5edeba5e70fe72}{\index{Flock@{Flock}!quack@{quack}}
+\index{quack@{quack}!Flock@{Flock}}
+\subsubsection[{quack}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Flock\-::quack (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classFlock_a3bbac4b6672dd5b30c5edeba5e70fe72}
+
+
+Implements \hyperlink{classQuackable_a1f9bb1e1bbe5991d48bd38ffb05c245c}{Quackable}.
+
+
+
+References quackables.
+
+\hypertarget{classFlock_a715e88d384d12d8277807eee93ade6eb}{\index{Flock@{Flock}!register\-Observer@{register\-Observer}}
+\index{register\-Observer@{register\-Observer}!Flock@{Flock}}
+\subsubsection[{register\-Observer}]{\setlength{\rightskip}{0pt plus 5cm}void Flock\-::register\-Observer (
+\begin{DoxyParamCaption}
+\item[{p\-Observer}]{observer}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classFlock_a715e88d384d12d8277807eee93ade6eb}
+
+
+Implements \hyperlink{classIQuackObservable_ac2c11f51db71de4ec1facfe6e562f3bc}{I\-Quack\-Observable}.
+
+
+
+References quackables.
+
+
+
+\subsection{Field Documentation}
+\hypertarget{classFlock_a53e167d71e14dfd64e02c35cc6c94433}{\index{Flock@{Flock}!quackables@{quackables}}
+\index{quackables@{quackables}!Flock@{Flock}}
+\subsubsection[{quackables}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$p\-Quackable$>$ Flock\-::quackables\hspace{0.3cm}{\ttfamily [private]}}}\label{classFlock_a53e167d71e14dfd64e02c35cc6c94433}
+
+
+Referenced by add(), notify\-Observers(), quack(), and register\-Observer().
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Flock_8hpp}{Flock.\-hpp}\end{DoxyCompactItemize}

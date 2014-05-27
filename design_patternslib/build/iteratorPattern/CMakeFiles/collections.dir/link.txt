@@ -1,0 +1,2 @@
+/usr/bin/ar cr libcollections.a  CMakeFiles/collections.dir/empty.cpp.o
+/usr/bin/ranlib libcollections.a
