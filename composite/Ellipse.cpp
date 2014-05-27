@@ -5,5 +5,5 @@
 #include <algorithm> // std::for_each
 #include <functional> // std::mem_fun
      void Ellipse::print() const {
-          cout << "Ellipse \n";
+          std::cout << "Ellipse \n";
      }
