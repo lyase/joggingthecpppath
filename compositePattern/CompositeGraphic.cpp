@@ -8,6 +8,9 @@ void CompositeGraphic::print() const
 {
      // for each element in graphicList_, call the print member function
      std::for_each(graphicList_.begin(), graphicList_.end(), std::mem_fun(&Graphic::print));
+     for(auto it = graphicList_.begin(); it != graphicList_.end() ; ++it) {
+          (*it)->print();
+     }
 }
 
 void CompositeGraphic::add(Graphic *aGraphic)

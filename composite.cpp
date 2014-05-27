@@ -1,6 +1,6 @@
 #include <vector>
 #include <iostream> // std::cout
-#include <memory> // std::auto_ptr
+#include <memory> // std::unique_ptr
 #include <algorithm> // std::for_each
 #include <functional> // std::mem_fun
 #include "compositePattern/Ellipse.hpp" // 
@@ -10,15 +10,15 @@
 int main()
 {
      // Initialize four ellipses
-     const std::auto_ptr<Ellipse> ellipse1(new Ellipse());
-     const std::auto_ptr<Ellipse> ellipse2(new Ellipse());
-     const std::auto_ptr<Ellipse> ellipse3(new Ellipse());
-     const std::auto_ptr<Ellipse> ellipse4(new Ellipse());
+     const std::unique_ptr<Ellipse> ellipse1(new Ellipse());
+     const std::unique_ptr<Ellipse> ellipse2(new Ellipse());
+     const std::unique_ptr<Ellipse> ellipse3(new Ellipse());
+     const std::unique_ptr<Ellipse> ellipse4(new Ellipse());
 
      // Initialize three composite graphics
-     const std::auto_ptr<CompositeGraphic> graphic(new CompositeGraphic());
-     const std::auto_ptr<CompositeGraphic> graphic1(new CompositeGraphic());
-     const std::auto_ptr<CompositeGraphic> graphic2(new CompositeGraphic());
+     const std::unique_ptr<CompositeGraphic> graphic(new CompositeGraphic());
+     const std::unique_ptr<CompositeGraphic> graphic1(new CompositeGraphic());
+     const std::unique_ptr<CompositeGraphic> graphic2(new CompositeGraphic());
 
      // Composes the graphics
      graphic1->add(ellipse1.get());
