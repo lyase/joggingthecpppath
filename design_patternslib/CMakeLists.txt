@@ -66,18 +66,16 @@ endif()
 # various Patterns
 add_subdirectory(commandPattern)
 add_subdirectory(compositePattern)
-add_subdirectory(decorator)
 add_subdirectory(decoratorPattern)
 add_subdirectory(dynamicBehaviorDemo)
 add_subdirectory(factory)
 add_subdirectory(iteratorPattern)
-add_subdirectory(observer)
 add_subdirectory(observerPattern)
 add_subdirectory(simulator)
 add_subdirectory(strategy)
 
 add_library(design_patternslib empty.cpp)
-target_link_libraries(design_patternslib commandPattern compositePattern decorator decoratorPattern dynamicBehaviorDemo  factory iteratorPattern observer observerPattern simulator strategy )
+target_link_libraries(design_patternslib commandPattern compositePattern  decoratorPattern dynamicBehaviorDemo  factory iteratorPattern  observerPattern simulator strategy )
  
 #------------------------------------------------------------------------------------------------------
 
